@@ -1,3 +1,5 @@
+![imgonline-com-ua-twotoone-TGomkJiakfjKEI](https://user-images.githubusercontent.com/23294169/224335177-24db7a19-62ff-45fc-aacb-7332fa58e90f.jpg)
+
 ## Hi there, welchome to D-LAMA 👋
 
 🙋‍♀️ About us - We are studying Computer Science at ZHAW and for the module PM4 we are developing an application to make the labeling process of data for supervised learning more exciting and simpler.
@@ -5,7 +7,7 @@
 🌈 Contribution guidelines - Currently only members of the group can contribute. For this, an issue can be selected and implemented. for more info check the [detailed guildelines](#cd).
 
 👩‍💻 Useful resources - All our docs are written directly in the code or in this repository:
-* Weekly Standup (link is following)
+* [Weekly Standup](https://github.com/d-lama/.github/tree/main/weekly)
 * Project Outline (link is following)
 * Product Backlog (link is following)
 * Issue Boards (link are following)
