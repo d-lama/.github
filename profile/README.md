@@ -1,6 +1,6 @@
 ![imgonline-com-ua-twotoone-TGomkJiakfjKEI](https://user-images.githubusercontent.com/23294169/224335177-24db7a19-62ff-45fc-aacb-7332fa58e90f.jpg)
 
-## Hi there, welchome to D-LAMA 👋
+## Hi there, welcome to D-LAMA 👋
 
 🙋‍♀️ About us - We are studying Computer Science at ZHAW and for the module PM4 we are developing an application to make the labeling process of data for supervised learning more exciting and simpler.
 
