@@ -8,6 +8,7 @@ Each person with requirements is distinguished by unique names.
 🔴 Dina is the ~~(most anoyying one😉)~~ developer who wants to have a structurized working environment and clear tasks.
 
 | ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status | For whom? |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 1011 | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Done | 🔴 |
 | 1002 | Development | As Eduardo, I want to be able to easily categorize data using a swipe mechanism so I can label data as quickly and intuitively as possible. |  |  | 1 | Backlog | 🟣 |
 | 1005 | Development | As Hanna, I want to be able to upload a container of records with the possible categories so that the lablers can use them. | - | - | - | - | 🟢 |
