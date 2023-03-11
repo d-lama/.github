@@ -15,7 +15,7 @@
 * Frontend (link is following)
 * Backend (link is following)
 
-🦙 If you figure out what D-LAMA stands for write it in <here> and make a merge request 🦙
+🦙 If you figure out what D-LAMA stands for write it in here and make a merge request 🦙
 <!--
 
 **Here are some ideas to get you started:**
