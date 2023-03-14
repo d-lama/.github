@@ -29,5 +29,13 @@
   
 <details>
   <summary id="cd">Contributing guidelines</summary>
-  Test
+  <ul>
+    <li>Pick an issue you'd like to tackle and assign it to you.</li>
+    <li>Create a new branch from main to work on the issue with it's correct tag (e.g. feat/issue_1).</li>
+    <li>If one issue depends from another issue take that branch as base (dependent issues can happen, should be avoided at all costs).</li>
+    <li>Prefix every commit you are making as suggested in <a href="https://github.com/semantic-release/semantic-release#how-does-it-work">semantic releas</a> and add a meaningful description.</li>
+    <li>Check the coding guidelines (link follows) for a clean and maintainable code</li>
+    <li>If you have solved the issue, let it review from min. one other person.</li>
+    <li>As a reviewer, make sure you point out what was good, what was bad and how you'd do it differently. Also make sure you take time for a review, because they are very important for consistency and maintainability.</li>
+  </ul>
 </details>
