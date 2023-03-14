@@ -28,7 +28,7 @@
 -->
   
 <details>
-  <summary id="cd">Contributing guidelines</summary>
+  <summary id="cd"><h2>Contribution guidelines</h2></summary>
   <ul>
     <li>Pick an issue you'd like to tackle and assign it to you.</li>
     <li>Create a new branch from main to work on the issue with it's correct tag (e.g. feat/issue_1).</li>
