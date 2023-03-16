@@ -11,7 +11,7 @@
 * [Project Outline](/mgmt/project_outline.md)
 * [Product Backlog](/mgmt/product_backlog.md)
 * Issue Boards (link are following)
-* Wiki (link is following)
+* [Wiki](/tech)
 * Frontend (link is following)
 * Backend (link is following)
 
