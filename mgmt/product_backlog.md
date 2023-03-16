@@ -3,9 +3,10 @@
 In this file you can find the product backlog with all userstories. 
 Each person with requirements is distinguished by unique names.
 
-🟢 Hanna is the client which wants to get data labeld.
-🟣 Eduardo is the client who wants to help label a dataset.
-🔴 Dina is the ~~(most anoyying one😉)~~ developer who wants to have a structurized working environment and clear tasks.
+🟢 Hanna is the client which wants to get data labeld.<br>
+🟣 Eduardo is the client who wants to help label a dataset.<br>
+🔴 Dina is the ~~(most anoyying one😉)~~ developer who wants to have a structurized working environment and clear tasks.<br>
+<hr>
 
 | ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status | For whom? |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
