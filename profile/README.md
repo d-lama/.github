@@ -8,8 +8,8 @@
 
 👩‍💻 Useful resources - All our docs are written directly in the code or in this repository:
 * [Recent Weekly Standup](/weekly/23_10_03.md) | [List](/weekly)
-* Project Outline (link is following)
-* Product Backlog (link is following)
+* [Project Outline](/mgmt/project_outline.md)
+* [Product Backlog](/mgmt/product_backlog.md)
 * Issue Boards (link are following)
 * Wiki (link is following)
 * Frontend (link is following)
