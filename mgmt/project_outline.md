@@ -62,12 +62,17 @@ In the following, the main processes of a user are explained from two points of 
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
 
 **A.**
+
 Quality risk:
 * 
+
 **B.**
+
 Resource scarcity:
 * 
+
 **C.**
+
 User acceptance:
 * 
 
