@@ -31,6 +31,23 @@ The software will help businesses and research labs reduce the time and resource
 3. Scalability: Decentralized data labeling can be scaled easily, allowing businesses to process large amounts of data quickly and efficiently. This can be especially important for businesses that need to process large datasets on a regular basis.
 
 ## 4 Competitive Analysis
+Due to the increasing importance of machine learning algorithms, tools have been developed on the market to simplify and improve the quality of manual data labelling.
+
+In order to precisely determine the current possible market position of D-LAMA in comparison to the existing products, the competing products were analysed in the table below:
+
+
+| Competitive product | Website                                         | Main characteristics | Pro's | Contra's |
+|---------------------|-------------------------------------------------|----------------------|-------|----------|
+| Labelbox            | [Labelbox](https://labelbox.com/)               |                      |       |          |
+| Hasty.ai            | [Hasty.ai](https://hasty.ai/v2)                 |                      |       |          |
+| Scale AI            | [Scale AI](https://scale.com/)                  |                      |       |          |
+| SuperAnnotate       | [SuperAnnotate](https://www.superannotate.com/) |                      |       |          |
+| V7                  | [V7](https://www.v7labs.com/)                   |                      |       |          |
+| Dataloop            | [Dataloop](https://dataloop.ai/)                |                      |       |          |                 
+| Appen               | [Appen](https://appen.com/)                     |                      |       |          |
+ 
+
+
 
 ## 5 Main Sequence
 In the following, the main processes of a user are explained from two points of view. the first point of view is that of a business that wants to have data labeled, the other point of view is that of a user that wants to label data.
@@ -42,6 +59,31 @@ In the following, the main processes of a user are explained from two points of 
 ## 7 Ressources
 
 ## 8 Risks
+When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
+
+**A.**
+Quality risk:
+* 
+**B.**
+Resource scarcity:
+* 
+**C.**
+User acceptance:
+* 
+
+**D.**
+* /
+
+
+The table below is intended to show the four risks described according to their probability of occurrence as well as their severity.
+
+| Severity /<br/> Probability | insignificant | medium heavy | heavy | critical |
+|-----------------------------|---------------|--------------|-------|----------|
+| unlikely                    |               |              |       |          |
+| possible                    |               |              |       |          |
+| probably                    |               |              |       |          |
+| almost certain              |               |              |       |          |
+
 
 ## 9 Rough Planning
 
