@@ -8,16 +8,19 @@ Each person with requirements is distinguished by unique names.
 🔴 Dina is the ~~(most anoyying one😉)~~ developer who wants to have a structurized working environment and clear tasks.<br>
 <hr>
 
+(last ID 1021)
+
+
 | ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status | For whom? |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| 1011 | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Done | 🔴 |
+| 1011 | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Planned | 🔴 |
+| 1016 | Frontend | As Dina, I want to create initial mockups so that I can visually ensure an appealing look and feel for the Eduardo and Hanna. | <ul><li>All views are defined</li><li>Every team member reviews them and Hanna and Eduardo like it</li></ul> | 8 | 1 | Planned | 🔴 |
+| 1013 | Architecture | As Dina, I want to have a structured development process so that there can be as few hurdles as possible and a high quality process / code from the start | <ul><li>Coding guidelines are available</li><li>Issue management is clear and standardized</li></ul> | 3 | 1 | Planned | 🔴 |
+| 1018 | Architecture | As Dina, I would like to have an architectural drawing so that I have an overview of interfaces and contact points of the various services. | <ul><li>Frontend structure is clear (services, components, interceptors)</li><li>Communication between FE and BE is clear</li><li>Backend with DB connection and abstraction patterns are elaborated</li></ul> | 5 | 1 | Planned | 🔴 |
+| 1019 | Management | As Dina, I want to create a wiki and product outline so that during development and also after the main development phase, I know what functionalities are given and how to contribute to them. (e.g. REST interfaces) | <ul><li>Wiki skeleton is made</li><li>Product Backlog is in Wiki</li><li>Planning and Management templates are done</li></ul> | 8 | 1 | Planned | 🔴 |
+| 1020 | DevOps | As Dina, I want to have a running Kubernetes cluster or VM so that the software can be rolled out. | <ul><li>First "example" deployment is done</li><li>GitOPS CICD is elaborated</li><li>Decision VM vs K8s is made</li></ul> | 5 | 1 | Backlog | 🔴 |
 | 1002 | Development | As Eduardo, I want to be able to easily categorize data using a swipe mechanism so I can label data as quickly and intuitively as possible. |  |  | 1 | Backlog | 🟣 |
 | 1005 | Development | As Hanna, I want to be able to upload a container of records with the possible categories so that the lablers can use them. | - | - | 1 | Backlog | 🟢 |
-| 1013 | Architecture | As Dina, I want to have a structured development process so that there can be as few hurdles as possible and a high quality process / code from the start | - | - | 1 | Backlog | 🔴 |
-| 1016 | Frontend | As Dina, I want to create initial mockups so that I can visually ensure an appealing look and feel for the Noah and Hanna. | - | - | 1 | Backlog | 🔴 |
-| 1018 | Architecture | As Dina, I would like to have an architectural drawing so that I have an overview of interfaces and contact points of the various services. | - | - | 1 | Backlog | 🔴 |
-| 1019 | Management | As Dina, I want to create a wiki so that during development and also after the main development phase, I know what functionalities are given and how to contribute to them. (e.g. REST interfaces) | - | - | 1 | Backlog | 🔴 |
-| 1020 | DevOps | As Dina, I want to have a running Kubernetes cluster or VM so that the software can be rolled out. | - | - | 1 | Backlog | 🔴 |
 | 1004 | Development | As Hanna I want to be able to see an evaluation of the gelable data, so that I can quickly create an overview (e.g. annotator agreement). | - | - | 2 | Backlog | 🟢 |
 | 1008 | DevOps | As Dina, I want a DevOps process defined and implemented so that the rollout of the Productive System and Test System happens quickly and in a controlled manner. | - | - | 2 | Backlog | 🔴 |
 | 1007 | Development | As Eduardo or Hanna, I want to be able to register, so that I can generate a profile that I can access again and again. | - | - | 2 | Backlog | 🟢🟣 |
