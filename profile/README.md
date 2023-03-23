@@ -7,7 +7,7 @@
 🌈 Contribution guidelines - Currently only members of the group can contribute. For this, an issue can be selected and implemented. for more info check the [detailed guildelines](#cd).
 
 👩‍💻 Useful resources - All our docs are written directly in the code or in this repository:
-* [Recent Weekly Standup](/weekly/23_10_03.md) | [List](/weekly)
+* [Recent Weekly Standup](/weekly/23_17_03.md) | [List](/weekly)
 * [Project Outline](/mgmt/project_outline.md)
 * [Product Backlog](/mgmt/product_backlog.md)
 * Issue Boards (link are following)
