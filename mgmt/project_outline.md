@@ -49,16 +49,16 @@ In order to precisely determine the current possible market position of D-LAMA i
 
 
 
-## 5 Main Sequence (Stefanie)
+## 5 Main Sequence (Gianmarco)
 In the following, the main processes of a user are explained from two points of view. the first point of view is that of a business that wants to have data labeled, the other point of view is that of a user that wants to label data.
 ### 5.1 Providing a dataset
 
 ### 5.2 Labeling a dataset
 ## 6 Other Requirements
 
-## 7 Ressources (Gianmarco)
+## 7 Ressources
 
-## 8 Risks
+## 8 Risks (Stefanie)
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
 
 **A.**
