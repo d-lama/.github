@@ -49,7 +49,7 @@ In order to precisely determine the current possible market position of D-LAMA i
 
 
 
-## 5 Main Sequence
+## 5 Main Sequence (Stefanie)
 In the following, the main processes of a user are explained from two points of view. the first point of view is that of a business that wants to have data labeled, the other point of view is that of a user that wants to label data.
 ### 5.1 Providing a dataset
 
