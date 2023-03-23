@@ -61,23 +61,19 @@ In the following, the main processes of a user are explained from two points of 
 ## 8 Risks (Stefanie)
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
 
-**A.**
+**A. Quality risk:**
+Although all of the team members are experienced in programming and have worked together before, there is still a high risk that the resulting application does not correspond the expected quality. Factors such as in this project used but partially new technologies, communication issues and errors in the code or the logic itself play a big part in the resulting quality of the program.
+By ensuring a working testing environment and embedding tests for at least the most important functions of the application, errors can be diminished. Coding and coworking guidelines not also help with the same problem, but ensure a better way of sharing code and communication. Furthermore, it is of great importance that the costumer gets involved from the start of the project, so it is clear which quality shall be strived for.
 
-Quality risk:
-* 
+**B. Resource scarcity:**
+The most valuable resource in this project is possibly the time of the team members. Since this project is part of the bachelor studies in computer science at the ZHAW and all of the involved team members are part-time studies, time is a valuable good. With a good and especially dynamic project plan, the team should be able to schedule the work efficient and therefore timesaving.
+In addition to time, there are also some more concrete resources, which are scarce: All things regarding the needed IT-infrastructure. Fortunately, the ZHAW does provide its students with many things, so the risk of not being able to… 
+=> Maybe reinnehmen was wir genau bestellt haben?
 
-**B.**
+**C. User acceptance:**
+In the end, the D-LAMA application is a product ordered by a costumer. Not fulfilling her acceptance criteria would be a failure. Therefore, the user acceptance is a huge risk given in many (software) projects. A good communication with the costumer from the beginning of the project to its conclusion as well as a good structured and dynamic method to document and track issues are mandatory.
 
-Resource scarcity:
-* 
-
-**C.**
-
-User acceptance:
-* 
-
-**D.**
-* /
+**D. Communication Issues?**
 
 
 The table below is intended to show the four risks described according to their probability of occurrence as well as their severity.
