@@ -13,7 +13,7 @@ Each person with requirements is distinguished by unique names.
 
 | ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status | For whom? |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-| 1011 | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Planned | 🔴 |
+| <p id="1011"> 1011 </p> | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Planned | 🔴 |
 | 1016 | Frontend | As Dina, I want to create initial mockups so that I can visually ensure an appealing look and feel for the Eduardo and Hanna. | <ul><li>All views are defined</li><li>Every team member reviews them and Hanna and Eduardo like it</li></ul> | 8 | 1 | Planned | 🔴 |
 | 1013 | Architecture | As Dina, I want to have a structured development process so that there can be as few hurdles as possible and a high quality process / code from the start | <ul><li>Coding guidelines are available</li><li>Issue management is clear and standardized</li></ul> | 3 | 1 | Planned | 🔴 |
 | 1018 | Architecture | As Dina, I would like to have an architectural drawing so that I have an overview of interfaces and contact points of the various services. | <ul><li>Frontend structure is clear (services, components, interceptors)</li><li>Communication between FE and BE is clear</li><li>Backend with DB connection and abstraction patterns are elaborated</li></ul> | 5 | 1 | Planned | 🔴 |
