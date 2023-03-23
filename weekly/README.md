@@ -9,3 +9,4 @@ Every thursday we answer shortly following questions in a standup (except for th
 🤯 What are the conclusions and WOW moments?<br>
 
 1. [Weekly of 10.03.2023](weekly/23_10_03.md)
+2. [Weekly of 17.03.2023](weekly/23_17_03.md)
