@@ -30,7 +30,7 @@ The software will help businesses and research labs reduce the time and resource
 2. Increased accuracy and consistency: Different quality control measurements and the mixture of lablers can help reduce the potential for error and bias in the labeling process. This can lead to more accurate and consistent labeling, which can improve the overall quality of the machine learning models. This can be especially important in industries where accuracy is critical, such as healthcare, finance, and legal.
 3. Scalability: Decentralized data labeling can be scaled easily, allowing businesses to process large amounts of data quickly and efficiently. This can be especially important for businesses that need to process large datasets on a regular basis.
 
-## 4 Competitive Analysis
+## 4 Competitive Analysis (Rebekka)
 Due to the increasing importance of machine learning algorithms, tools have been developed on the market to simplify and improve the quality of manual data labelling.
 
 In order to precisely determine the current possible market position of D-LAMA in comparison to the existing products, the competing products were analysed in the table below:
