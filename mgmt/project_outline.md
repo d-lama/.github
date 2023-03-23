@@ -56,7 +56,7 @@ In the following, the main processes of a user are explained from two points of 
 ### 5.2 Labeling a dataset
 ## 6 Other Requirements
 
-## 7 Ressources
+## 7 Ressources (Gianmarco)
 
 ## 8 Risks
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
