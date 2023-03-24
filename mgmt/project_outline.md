@@ -95,3 +95,12 @@ The table below is intended to show the four risks described according to their 
 ## 10 Economy
 
 ## 11 List of References
+
+- https://www.superannotate.com/blog/best-data-labeling-tools
+- https://labelbox.com/
+- https://hasty.ai/v2
+- https://scale.com/
+- https://www.superannotate.com/
+- https://www.v7labs.com/
+- https://dataloop.ai/
+- https://appen.com/
