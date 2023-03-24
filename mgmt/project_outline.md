@@ -31,21 +31,25 @@ The software will help businesses and research labs reduce the time and resource
 3. Scalability: Decentralized data labeling can be scaled easily, allowing businesses to process large amounts of data quickly and efficiently. This can be especially important for businesses that need to process large datasets on a regular basis.
 
 ## 4 Competitive Analysis (Rebekka)
-Due to the increasing importance of machine learning algorithms, tools have been developed on the market to simplify and improve the quality of manual data labelling.
+Due to the increasing popularity and importance of machine learning, tools have been developed on the market to simplify and improve the quality of manual data labelling. ML engineers have to invest more than 80% of their time in data preparation and data labelling in order to have the data ready to work with.
+(https://www.superannotate.com/blog/best-data-labeling-tools)
 
-In order to precisely determine the current possible market position of D-LAMA in comparison to the existing products, the competing products were analysed in the table below:
+In order to determine the current possible market position of D-LAMA in comparison to existing products, the best known competing products have been analysed in the table below:
 
-
-| Competitive product | Website                                         | Main characteristics | Pro's | Contra's |
-|---------------------|-------------------------------------------------|----------------------|-------|----------|
-| Labelbox            | [Labelbox](https://labelbox.com/)               |                      |       |          |
-| Hasty.ai            | [Hasty.ai](https://hasty.ai/v2)                 |                      |       |          |
-| Scale AI            | [Scale AI](https://scale.com/)                  |                      |       |          |
-| SuperAnnotate       | [SuperAnnotate](https://www.superannotate.com/) |                      |       |          |
-| V7                  | [V7](https://www.v7labs.com/)                   |                      |       |          |
-| Dataloop            | [Dataloop](https://dataloop.ai/)                |                      |       |          |                 
-| Appen               | [Appen](https://appen.com/)                     |                      |       |          |
+#### Table 1: Competitors of D-LAMA
+| Competitive Product | Website                                         | Main Characteristics                                                                                                            | Pro's                                                                                                             | Contra's                                                                                                      |
+|---------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Labelbox            | [Labelbox](https://labelbox.com/)               | A comprehensive toolset for data labelling, collaboration and project management                                                | <ul><li>Easy to use</li><li>automated workflows</li><li>adaptability</li></ul>                                    | <ul><li>Relatively expensive</li></ul>                                                                         |
+| Hasty.ai            | [Hasty.ai](https://hasty.ai/v2)                 | A quick and easy app for labelling data based on Deep Learning technology                                                       | <ul><li>Quick and easy to use</li><li>deep learning support</li></ul>                                             | <ul><li>Less comprehensive functions than some of the other tools</li><li>limited user definability</li></ul> |
+| Scale AI            | [Scale AI](https://scale.com/)                  | A powerful and flexible data labelling platform that supports a wide range of applications                                      | <ul><li>Powerful functions</li><li>flexibility</li></ul>                                                          | <ul><li>Relatively expensive</li><li>not so easy to use</li><li>adaptability</li></ul>                        |
+| SuperAnnotate       | [SuperAnnotate](https://www.superannotate.com/) | A user-friendly platform for labelling data with a focus on computer vision and Natural Language Processing (NLP) applications. | <ul><li>User-friendly</li><li>fast processing times</li><li>community support</li></ul>                           | <ul><li>Limited functions</li></ul>                                                                           |
+| V7                  | [V7](https://www.v7labs.com/)                   | A data labelling platform specifically designed to meet the requirements of computer vision applications.                       | <ul><li>Specialised in computer vision applications</li><li>customisable functions</li><li>adaptability</li></ul> | <ul><li>Not so user-friendly </li></ul>                                                                       |
+| Dataloop            | [Dataloop](https://dataloop.ai/)                | A comprehensive data labelling platform with a focus on Deep Learning models.                                                   | <ul><li>Comprehensive functions</li><li>fast and precise processing times</li><li>adaptability</li></ul>          | <ul><li>Relatively expensive</li></ul>                                                                        |                 
+| Appen               | [Appen](https://appen.com/)                     | A platform for labelling data especially for companies and research projects.                                                   | <ul><li>High quality of results</li><li>adaptability</li></ul>                                                    | <ul><li>Relatively expensive</li><li>automated workflows</li><li>longer processing times</li></ul>            |
  
+Although there are now many competing products to D-LAMA, D-LAMA is clearly different from them. 
+D-LAMA stands out in its simplicity. It is designed to make data labelling as simple and efficient as possible. Most existing applications only offer a web view. D-LAMA, on the other hand, also has a web view for the administrator, but a mobile view is available for the data labler, which should make labelling possible anywhere and at any time.
+In addition, D-LAMA offers the data labler a bonus system as an incentive to achieve the optimum in terms of both quality and quantity. In addition, the included swipe mechanism for labelling the data creates a kind of gamification.
 
 
 
