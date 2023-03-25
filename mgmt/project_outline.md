@@ -54,10 +54,29 @@ In addition, D-LAMA offers the data labler a bonus system as an incentive to ach
 
 
 ## 5 Main Sequence (Gianmarco)
-In the following, the main processes of a user are explained from two points of view. the first point of view is that of a business that wants to have data labeled, the other point of view is that of a user that wants to label data.
-### 5.1 Providing a dataset
+In this chapter of the project outline, we will outline the main sequence for the D-LAMA web app from the perspectives of two types of users: the data labelling project admin and the data labeller. The admin user is responsible for creating and managing labelling projects, while the labeller is responsible for labelling the datasets.
+### 5.1 Admin user view
+1.	Admin user opens D-LAMA web app and logs in with their admin account credentials.
+2.	After logging in, the admin user is directed to the admin dashboard where they can view a list of all labelling projects.
+3.	The admin user selects the option to create a new labelling project.
+4.	The app prompts the admin user to enter a name and description for the new project, as well as upload the dataset to be labelled.
+5.	The admin user also defines the labels or categories for the dataset that the user will be able to choose from when labelling.
+6.	After creating the project, the admin user is directed to the project page, where they can see the progress and precision of the labels as the user is applying them.
+7.	The admin user can view individual data points in the dataset and see the tags that have been applied to them, as well as update or add new labels as necessary.
+8.	If the admin user notices any issues with the labelling process, they can flag specific data points for review and adjust the tags as needed.
+9.	As the labelling process progresses, the admin user can view the overall progress of the project and see how many data points have been labelled, how many are remaining, and the overall accuracy of the tags applied.
+10.	Once all data points have been labelled, the admin user can download the labelled dataset for use in machine learning models or archive the project if it is no longer needed.
 
-### 5.2 Labeling a dataset
+### 5.2 Data labeller view
+1.	User opens D-LAMA web app and is prompted to log in with their account credentials.
+2.	After logging in, the user is directed to their dashboard where they can view a list of labelling projects (that have been assigned to their account?).
+3.	The user selects a specific labelling project from the list to start working on.
+4.	The selected project opens and displays the first unlabelled data point.
+5.	The user swipes up, down, left, or right to label the data point, or skips the dataset if unsure.
+6.	The app automatically loads the next dataset in the sequence, and the user repeats step 5 until all datasets have been labelled.
+7.	When the user finishes labelling all datasets in the project, they are directed back to their dashboard and can view their progress on the project.
+8.	The user can select another project from their dashboard and start a new labelling process.
+
 ## 6 Other Requirements (Schazad)
 
 ## 7 Ressources (David)
