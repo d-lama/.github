@@ -58,7 +58,7 @@ In the following, the main processes of a user are explained from two points of 
 ### 5.1 Providing a dataset
 
 ### 5.2 Labeling a dataset
-## 6 Other Requirements
+## 6 Other Requirements (Schazad)
 
 ## 7 Ressources (David)
 
