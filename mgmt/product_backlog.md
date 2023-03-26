@@ -11,7 +11,7 @@ Each person with requirements is distinguished by unique names.
 (last ID 1021)
 
 
-| ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status | For whom? |
+| ID | Epic | User Story | Acceptance Criteria | Story Points | Priority | Status* | For whom? |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | <p id="1011"> 1011 </p> | Development | As Dina, I want to fix the technology stack so I can start developing cleanly. | Options are analyzed and it has been decided for the best. | 0 | 0 | Planned | 🔴 |
 | <p id="1016"> 1016 </p> | Frontend | As Dina, I want to create initial mockups so that I can visually ensure an appealing look and feel for the Eduardo and Hanna. | <ul><li>All views are defined</li><li>Every team member reviews them and Hanna and Eduardo like it</li></ul> | 8 | 1 | Planned | 🔴 |
@@ -33,3 +33,7 @@ Each person with requirements is distinguished by unique names.
 | <p id="1006"> 1006 </p> | Development | As Eduardo, I would like to have an overview of the labelig records and be able to choose one from them. | - | - | 4 | Backlog | 🟣 |
 | <p id="1012"> 1012 </p> | Development | As Hanna, I want to be able to upload different data formats (text, images, audio, video) so that Eduardo can label different records for different usecases. | - | - | 4 | Backlog | 🟢 |
 | <p id="1015"> 1015 </p> | Development | As Hanna, I would like to have a REST / gRPC interface so that I can use the labeled data directly without downloading them to feed an ML processes. | - | - | 4 | Backlog | 🟢 |
+
+*Status:
+Planned -> The corresponding issue was created.
+Backlog -> The corresponding issue has been discussed but not created yet.
