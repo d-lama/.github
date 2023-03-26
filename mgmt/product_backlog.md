@@ -35,5 +35,6 @@ Each person with requirements is distinguished by unique names.
 | <p id="1015"> 1015 </p> | Development | As Hanna, I would like to have a REST / gRPC interface so that I can use the labeled data directly without downloading them to feed an ML processes. | - | - | 4 | Backlog | 🟢 |
 
 *Status:
+
 Planned -> The corresponding issue was created.
 Backlog -> The corresponding issue has been discussed but not created yet.
