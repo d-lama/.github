@@ -37,4 +37,5 @@ Each person with requirements is distinguished by unique names.
 *Status:
 
 Planned -> The corresponding issue was created.
+
 Backlog -> The corresponding issue has been discussed but not created yet.
