@@ -80,6 +80,20 @@ In this chapter of the project outline, we will outline the main sequence for th
 ## 6 Other Requirements (Schazad)
 
 ## 7 Ressources (David)
+Eight developers are available for the implementation of the "D-LAMA" project.
+Existing (personnel) resources for implementation:
+- Currently, three people are working in application development and have expertise in software architecture.
+- Five people have practical basic experience in object-oriented languages.
+
+Additional resources needed for implementation:
+- Software developers
+- Client
+- Development environment
+- Version control tool GIT
+- Kubernetes cluster of ZHAW (Rancher)
+- C4 model for visualising software architecture
+ 
+The estimated effort for realizing the prototype of "D-LAMA" application amounts to approximately 120 hours per project member. Therefore, the total effort for the entire project group is about 960 hours. As the resources used such as development environment, GIT, C4 model and Rancher are provided free of charge, no additional effort is charged for these resources.
 
 ## 8 Risks (Stefanie)
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
