@@ -45,9 +45,9 @@ $$NumberOfECTS = 4$$
 
 $$TimePerECTS = 30h$$
 
-$$NumberOfDevelopers = 7$$
+$$NumberOfDevelopers = 8$$
 
-$$= 4 * 30 * 7  = 840h$$
+$$= 4 * 30 * 8  = 840h$$
 
 ### Know-How
 The development team is mixed with different knw-how-levels. Because of the fact everyone is a computer science student the foundations of developing is given. Handling new technologies and different aspects of software development and management is for sure a challange which needs to be mentioned. Lots of things are learning by doing and therefore take longer than usual.
@@ -81,6 +81,14 @@ The development team is mixed with different knw-how-levels. Because of the fact
 ## 12. Operation and support
 
 ## 13. Decision Log 
+
+<details>
+  <summary id="cd"><h3>Use Markdown any decision records</h3></summary>
+  We decided on using markdown any decision records because it fits with our documentation, is easy to implement and looks pretty.
+  <div dir='rtl'>
+  <a href="/tech/adr/0000-use-markdown-any-decision-records.md">Read more</a>
+  </div>
+</details>
 
 (Hier ADR files verlinken)
 
