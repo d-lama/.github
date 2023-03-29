@@ -4,9 +4,9 @@
 
 ## 1 Starting Point
 
-Thanks to AI, many processes are currently being simplified and many new projects are being implemented. Supervised Learning plays a big role in this, as it is a common use case or at least a component of most AI networks. Last semester we visited MLDM and realized that labeling data takes a lot of time and is not very satisfying. This is something we are trying to change! 
+Thanks to AI, many processes are currently being simplified and many new projects are being implemented. Supervised Learning plays a big role in this, as it is a common use case or at least a component of most AI networks. Last semester we visited Machine Learning and Data Mining (MLDM ) and realized that labeling data takes a lot of time and is not very satisfying. This is something we are trying to change with D-LAMA! 
 
-To make manual labeling on data for AI projects exciting and efficient we are developing a simple web application that makes labeling as well as letting everyone label accessible. With the swipe mechanism, labeling is simplified and through gamification, quality as well as quantity is measured in a fun way. Thanks to configuration options, clients should also have an exciting experience and get their data more efficiently.
+To make manual labeling on data for Artificial Intelligence (AI) projects exciting and efficient we are developing a simple web application that makes labeling as well as letting everyone label accessible. With the swipe mechanism, labeling is simplified and through gamification, quality as well as quantity is measured in a fun way. Thanks to configuration options, clients should also have an exciting experience and get their data more efficiently.
 
 ## 2 Idea
 
@@ -31,7 +31,7 @@ The software will help businesses and research labs reduce the time and resource
 3. Scalability: Decentralized data labeling can be scaled easily, allowing businesses to process large amounts of data quickly and efficiently. This can be especially important for businesses that need to process large datasets on a regular basis.
 
 ## 4 Competitive Analysis (Rebekka)
-Due to the increasing popularity and importance of machine learning, tools have been developed on the market to simplify and improve the quality of manual data labelling. ML engineers have to invest more than 80% of their time in data preparation and data labelling in order to have the data ready to work with.
+Due to the increasing popularity and importance of machine learning, tools have been developed on the market to simplify and improve the quality of manual data labeling. ML engineers have to invest more than 80% of their time in data preparation and data labeling in order to have the data ready to work with.
 (https://www.superannotate.com/blog/best-data-labeling-tools)
 
 In order to determine the current possible market position of D-LAMA in comparison to existing products, the best known competing products have been analysed in the table below:
@@ -39,43 +39,42 @@ In order to determine the current possible market position of D-LAMA in comparis
 #### Table 1: Competitors of D-LAMA
 | Competitive Product | Website                                         | Main Characteristics                                                                                                            | Pro's                                                                                                             | Contra's                                                                                                      |
 |---------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Labelbox            | [Labelbox](https://labelbox.com/)               | A comprehensive toolset for data labelling, collaboration and project management                                                | <ul><li>Easy to use</li><li>automated workflows</li><li>adaptability</li></ul>                                    | <ul><li>Relatively expensive</li></ul>                                                                         |
-| Hasty.ai            | [Hasty.ai](https://hasty.ai/v2)                 | A quick and easy app for labelling data based on Deep Learning technology                                                       | <ul><li>Quick and easy to use</li><li>deep learning support</li></ul>                                             | <ul><li>Less comprehensive functions than some of the other tools</li><li>limited user definability</li></ul> |
-| Scale AI            | [Scale AI](https://scale.com/)                  | A powerful and flexible data labelling platform that supports a wide range of applications                                      | <ul><li>Powerful functions</li><li>flexibility</li></ul>                                                          | <ul><li>Relatively expensive</li><li>not so easy to use</li><li>adaptability</li></ul>                        |
-| SuperAnnotate       | [SuperAnnotate](https://www.superannotate.com/) | A user-friendly platform for labelling data with a focus on computer vision and Natural Language Processing (NLP) applications. | <ul><li>User-friendly</li><li>fast processing times</li><li>community support</li></ul>                           | <ul><li>Limited functions</li></ul>                                                                           |
-| V7                  | [V7](https://www.v7labs.com/)                   | A data labelling platform specifically designed to meet the requirements of computer vision applications.                       | <ul><li>Specialised in computer vision applications</li><li>customisable functions</li><li>adaptability</li></ul> | <ul><li>Not so user-friendly </li></ul>                                                                       |
-| Dataloop            | [Dataloop](https://dataloop.ai/)                | A comprehensive data labelling platform with a focus on Deep Learning models.                                                   | <ul><li>Comprehensive functions</li><li>fast and precise processing times</li><li>adaptability</li></ul>          | <ul><li>Relatively expensive</li></ul>                                                                        |                 
-| Appen               | [Appen](https://appen.com/)                     | A platform for labelling data especially for companies and research projects.                                                   | <ul><li>High quality of results</li><li>adaptability</li></ul>                                                    | <ul><li>Relatively expensive</li><li>automated workflows</li><li>longer processing times</li></ul>            |
+| Labelbox            | [Labelbox](https://labelbox.com/)               | A comprehensive toolset for data labeling, collaboration and project management                                                | <ul><li>Easy to use</li><li>automated workflows</li><li>adaptability</li></ul>                                    | <ul><li>Relatively expensive</li></ul>                                                                         |
+| Hasty.ai            | [Hasty.ai](https://hasty.ai/v2)                 | A quick and easy app for labeling data based on Deep Learning technology                                                       | <ul><li>Quick and easy to use</li><li>deep learning support</li></ul>                                             | <ul><li>Less comprehensive functions than some of the other tools</li><li>limited user definability</li></ul> |
+| Scale AI            | [Scale AI](https://scale.com/)                  | A powerful and flexible data labeling platform that supports a wide range of applications                                      | <ul><li>Powerful functions</li><li>flexibility</li></ul>                                                          | <ul><li>Relatively expensive</li><li>not so easy to use</li><li>adaptability</li></ul>                        |
+| SuperAnnotate       | [SuperAnnotate](https://www.superannotate.com/) | A user-friendly platform for labeling data with a focus on computer vision and Natural Language Processing (NLP) applications. | <ul><li>User-friendly</li><li>fast processing times</li><li>community support</li></ul>                           | <ul><li>Limited functions</li></ul>                                                                           |
+| V7                  | [V7](https://www.v7labs.com/)                   | A data labeling platform specifically designed to meet the requirements of computer vision applications.                       | <ul><li>Specialised in computer vision applications</li><li>customisable functions</li><li>adaptability</li></ul> | <ul><li>Not so user-friendly </li></ul>                                                                       |
+| Dataloop            | [Dataloop](https://dataloop.ai/)                | A comprehensive data labeling platform with a focus on Deep Learning models.                                                   | <ul><li>Comprehensive functions</li><li>fast and precise processing times</li><li>adaptability</li></ul>          | <ul><li>Relatively expensive</li></ul>                                                                        |                 
+| Appen               | [Appen](https://appen.com/)                     | A platform for labeling data especially for companies and research projects.                                                   | <ul><li>High quality of results</li><li>adaptability</li></ul>                                                    | <ul><li>Relatively expensive</li><li>automated workflows</li><li>longer processing times</li></ul>            |
  
 Although there are now many competing products to D-LAMA, D-LAMA is clearly different from them. 
-D-LAMA stands out in its simplicity. It is designed to make data labelling as simple and efficient as possible. Most existing applications only offer a web view. D-LAMA, on the other hand, also has a web view for the administrator, but a mobile view is available for the data labler, which should make labelling possible anywhere and at any time.
-In addition, D-LAMA offers the data labler a bonus system as an incentive to achieve the optimum in terms of both quality and quantity. In addition, the included swipe mechanism for labelling the data creates a kind of gamification.
-
+D-LAMA stands out in its simplicity. It is designed to make data labeling as simple and efficient as possible. Most existing applications only offer a web view. D-LAMA, on the other hand, also has a web view for the administrator, but a mobile view is available for the data labeler, which should make labeling possible anywhere and at any time.
+In addition, D-LAMA offers the data labeler a bonus system as an incentive to achieve the optimum in terms of both quality and quantity. In addition, the included swipe mechanism for labeling the data creates a kind of gamification.
 
 
 ## 5 Main Sequence (Gianmarco)
-In this chapter of the project outline, we will outline the main sequence for the D-LAMA web app from the perspectives of two types of users: the data labelling project admin and the data labeller. The admin user is responsible for creating and managing labelling projects, while the labeller is responsible for labelling the datasets.
+In this chapter of the project outline, we will outline the main sequence for the D-LAMA web app from the perspectives of two types of users: the data labeling project admin and the data labeller. The admin user is responsible for creating and managing labeling projects, while the labeller is responsible for labeling the datasets.
 ### 5.1 Admin user view
 1.	Admin user opens D-LAMA web app and logs in with their admin account credentials.
-2.	After logging in, the admin user is directed to the admin dashboard where they can view a list of all labelling projects.
-3.	The admin user selects the option to create a new labelling project.
+2.	After logging in, the admin user is directed to the admin dashboard where they can view a list of all labeling projects.
+3.	The admin user selects the option to create a new labeling project.
 4.	The app prompts the admin user to enter a name and description for the new project, as well as upload the dataset to be labelled.
-5.	The admin user also defines the labels or categories for the dataset that the user will be able to choose from when labelling.
+5.	The admin user also defines the labels or categories for the dataset that the user will be able to choose from when labeling.
 6.	After creating the project, the admin user is directed to the project page, where they can see the progress and precision of the labels as the user is applying them.
 7.	The admin user can view individual data points in the dataset and see the tags that have been applied to them, as well as update or add new labels as necessary.
-8.	If the admin user notices any issues with the labelling process, they can flag specific data points for review and adjust the tags as needed.
-9.	As the labelling process progresses, the admin user can view the overall progress of the project and see how many data points have been labelled, how many are remaining, and the overall accuracy of the tags applied.
+8.	If the admin user notices any issues with the labeling process, they can flag specific data points for review and adjust the tags as needed.
+9.	As the labeling process progresses, the admin user can view the overall progress of the project and see how many data points have been labelled, how many are remaining, and the overall accuracy of the tags applied.
 10.	Once all data points have been labelled, the admin user can download the labelled dataset for use in machine learning models or archive the project if it is no longer needed.
 
 ### 5.2 Data labeller view
 1.	User opens D-LAMA web app and is prompted to log in with their account credentials.
-2.	After logging in, the user is directed to their dashboard where they can view a list of labelling projects (that have been assigned to their account?).
-3.	The user selects a specific labelling project from the list to start working on.
+2.	After logging in, the user is directed to their dashboard where they can view a list of labeling projects (that have been assigned to their account?).
+3.	The user selects a specific labeling project from the list to start working on.
 4.	The selected project opens and displays the first unlabelled data point.
 5.	The user swipes up, down, left, or right to label the data point, or skips the dataset if unsure.
 6.	The app automatically loads the next dataset in the sequence, and the user repeats step 5 until all datasets have been labelled.
-7.	When the user finishes labelling all datasets in the project, they are directed back to their dashboard and can view their progress on the project.
-8.	The user can select another project from their dashboard and start a new labelling process.
+7.	When the user finishes labeling all datasets in the project, they are directed back to their dashboard and can view their progress on the project.
+8.	The user can select another project from their dashboard and start a new labeling process.
 
 ## 6 Other Requirements (Schazad)
 
