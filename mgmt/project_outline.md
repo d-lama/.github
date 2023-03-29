@@ -4,9 +4,9 @@
 
 ## 1 Starting Point
 
-Thanks to AI, many processes are currently being simplified and many new projects are being implemented. Supervised Learning plays a big role in this, as it is a common use case or at least a component of most AI networks. Last semester we visited Machine Learning and Data Mining (MLDM ) and realized that labeling data takes a lot of time and is not very satisfying. This is something we are trying to change with D-LAMA! 
+Thanks to Artificial Intelligence (AI), many processes are currently being simplified and many new projects are being implemented. Supervised Learning plays a big role in this, as it is a common use case or at least a component of most AI networks. Last semester we visited Machine Learning and Data Mining (MLDM) and realized that labeling data takes a lot of time and is not very satisfying. This is something we are trying to change with D-LAMA! 
 
-To make manual labeling on data for Artificial Intelligence (AI) projects exciting and efficient we are developing a simple web application that makes labeling as well as letting everyone label accessible. With the swipe mechanism, labeling is simplified and through gamification, quality as well as quantity is measured in a fun way. Thanks to configuration options, clients should also have an exciting experience and get their data more efficiently.
+To make manual labeling on data for AI projects exciting and efficient we are developing a simple web application that makes labeling as well as letting everyone label accessible. With the swipe mechanism, labeling is simplified and through gamification, quality as well as quantity is measured in a fun way. Thanks to configuration options, clients should also have an exciting experience and get their data more efficiently.
 
 ## 2 Idea
 
