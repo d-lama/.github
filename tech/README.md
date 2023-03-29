@@ -78,7 +78,7 @@ The development team is mixed with different knw-how-levels. Because of the fact
 
 ## 11. Deployment
 
-## 12. Operation and support
+## 12. Operation and Support
 
 ## 13. Decision Log 
 
