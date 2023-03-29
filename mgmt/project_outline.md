@@ -96,11 +96,12 @@ Additional resources needed for implementation:
 - Software developers
 - Client
 - Development environment
-- Version control tool GIT
-- Kubernetes cluster of ZHAW (Rancher)
-- C4 model for visualising software architecture
+- [GitHub](https://github.com/) as a version control tool 
+- [Rancher](https://www.rancher.com/) Kubernetes cluster of ZHAW
+- [C4 model](https://c4model.com/) for visualising software architecture
+- [Figma](https://www.figma.com/) for scetches and prototypes
  
-The estimated effort for realizing the prototype of "D-LAMA" application amounts to approximately 120 hours per project member. Therefore, the total effort for the entire project group is about 960 hours. As the resources used such as development environment, GIT, C4 model and Rancher are provided free of charge, no additional effort is charged for these resources.
+The estimated effort for realizing the prototype of "D-LAMA" application amounts to approximately 120 hours per project member. Therefore, the total effort for the entire project group is about 960 hours. As the resources used such as development environment, GIT, Rancher, C4 model and Figma are provided free of charge, no additional effort is charged for these resources.
 
 ## 8 Risks (Stefanie)
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
@@ -109,7 +110,7 @@ When developing an application like D-LAMA, there are risks that affect the deve
 Although all the team members are experienced in programming and have worked together before, there is still a possible risk that the resulting application does not correspond the expected quality. Factors such as in this project used but partially new technologies, communication issues and errors in the code or the logic itself play a big part in the resulting quality of the program. By ensuring a working testing environment and embedding tests for at least the most important functions of the application, errors can be diminished. Coding and coworking guidelines not also help with the same problem but ensure a better way of communication and sharing code. Furthermore, it is of great importance that the costumer gets involved from the start of the project, so it is clear which quality shall be strived for.
 
 **B. Resource scarcity:**
-The most valuable resource in this project is possibly the time of the team members. Since this project is part of the bachelor studies in computer science at the ZHAW and all the involved team members are part-time studies, time is a valuable good. With a structured and especially dynamic project plan, the team should be able to schedule the work efficient and therefore timesaving. In addition to time, there are also some more concrete resources, which are scarce: All things regarding the needed IT-infrastructure. Fortunately, the ZHAW does provide its students with many things, so the risk of not being able to… => Maybe reinnehmen was wir genau bestellt haben?
+The most valuable resource in this project is possibly the time of the team members. Since this project is part of the bachelor studies in computer science at the ZHAW and all the involved team members are part-time studies, time is a valuable good. With a structured and especially dynamic project plan, the team should be able to schedule the work efficient and therefore timesaving. In addition to time, there are also some more concrete resources, which are scarce: All things regarding the needed IT-infrastructure. Fortunately, the ZHAW does provide its students with a fault-tolerant IT infrastructure hosted on-site. The team could choose between two virtual machines on an OpenStack cluster or two Rancher Kubernetes namespaces. To be more flexible, both were ordered.
 
 **C. User acceptance:**
 In the end, the D-LAMA application is a product ordered by a costumer. Not fulfilling her acceptance criteria would be a failure. Therefore, the user acceptance is a huge risk given in many (software) projects. A good communication with the costumer from the beginning of the project to its conclusion as well as a good structured and dynamic method to document and track issues are mandatory.
@@ -148,3 +149,7 @@ The team is distributed in each segment seen on the left of the roadmap as descr
 - https://www.v7labs.com/
 - https://dataloop.ai/
 - https://appen.com/
+- https://github.com/
+- https://www.rancher.com/
+- https://c4model.com/
+- https://www.figma.com/
