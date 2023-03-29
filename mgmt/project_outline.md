@@ -77,6 +77,14 @@ In this chapter of the project outline, we will outline the main sequence for th
 8.	The user can select another project from their dashboard and start a new labeling process.
 
 ## 6 Other Requirements (Schazad)
+The D-LAMA web app should additionally fulfill the following requirements already in the prototype:
+- The data labeler should be able to interrupt or pause the process and resume it at a later time.
+- The data labeler should be able to add and remove labeling projects.
+- Both a Data Labeler and an Admin should be able to register an account and log in.
+- An administrator or creator of a data label project should be able to set the datatype of the dataset as an image.
+
+The following extensions can be added in later iterations:
+- An administrator or creator of a data label project should be able to set the data type of the data set as video, text, or audio.
 
 ## 7 Ressources (David)
 Eight developers are available for the implementation of the "D-LAMA" project.
