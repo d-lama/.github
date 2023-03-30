@@ -1,0 +1,287 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-03-30T12:36:33Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgbGFiZWxlciA9IHBlcnNvbiAiTGFiZWxlciIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGEgZGF0YSBsYWJlbGVyIgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGFuIGFkbWluIHdobyBwcm92aWRlcyB0aGUgZGF0YSBhbmQgbmVlZHMgdGhlIGRhdGEgbGFiZWxlZCIKCiAgICAgICAgZGxhbWEgPSBzb2Z0d2FyZVN5c3RlbSAiRC1MQU1BIiAiQWxsb3dzIGFuIGFkbWluIHRvIGFkZCBhIGxhYmVsaW5nIHByb2plY3Qgd2hpY2ggbmVlZHMgdG8gYmUgbGFiZWxlZCBhbmQgYWxsb3dzIGEgbGFiZWxlciB0byBsYWJlbCBhIGdpdmVuIHByb2plY3QiIHsKICAgICAgICAgICAgCiAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiTGFiZWxpbmcgLyBMb2dJbiAvIFJlZ2lzdGVyIgogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBZGQgUHJvamVjdCAvIFZpZXcgUHJvamVjdCAvIExvZ0luIC8gUmVnaXN0ZXIiCiAgICAgICAgICAgIAogICAgICAgICAgICB3ZWJhcHAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgIkRlbGl2ZXJzIHRoZSBzdGF0aWMgY29udGVudCBhbmQgdGhlIEQtTEFNQSBQcm9ncmVzc2l2IFdlYiBBcHBsaWNhdGlvbiIgIk5vZGUuanMiIHsKICAgICAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiVmlzaXRzIEQtTEFNQSB1c2luZyBhIHNtYXJ0cGhvbmUiICJIVFRQUyIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIlZpc2l0cyBELUxBTUEgdXNpbmcgYSBkZXNrdG9wIHBjIiAiSFRUUFMiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHNwYXBwID0gY29udGFpbmVyICJQcm9ncmVzc2l2IFdlYiBBcHBsaWNhdGlvbiIgIlByb3ZpZGVzIGFsbCBvZiB0aGUgRC1MQU1BIGZ1bmN0aW9uYWxpdHkgdG8gdGhlIGFkbWluIGFuZCBsYWJlbGVyIHZpYSB0aGVpciB3ZWIgYnJvd3NlciBvciBtb2JpbGUgYXBwIiAiUmVhY3QgYW5kIElvbmljIiB7CiAgICAgICAgICAgICAgICBsYWJlbGVyIC0+IHRoaXMgIlZpZXdzIGxhYmVsaW5nIHByb2plY3RzIGFuZCBjYW4gbGFiZWwgdGhlbSIgIkhUVFBTIgogICAgICAgICAgICAgICAgYWRtaW4gLT4gdGhpcyAiQWRtaW5pc3RyYXRlcyBhbmQgc3VwZXJ2aXNlcyB0aGUgbGFiZWxpbmcgcHJvamVjdHMiICJIVFRQUyIKICAgICAgICAgICAgICAgIHdlYmFwcCAtPiB0aGlzICJEZWxpdmVycyB0byB0aGUgYWRtaW4gb3IgbGFiZWxlcidzIHdlYiBicm93c2VyIgoKICAgICAgICAgICAgICAgIGMxID0gY29tcG9uZW50ICJDb21wb25lbnQgMSIKICAgICAgICAgICAgICAgIGMyID0gY29tcG9uZW50ICJDb21wb25lbnQgMiIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJTZXJ2ZXItc2lkZSBSRVNUIEFQSSIgIlByb3ZpZGVzIHRoZSBELUxBTUEgZnVuY3Rpb25hbGl0eSB2aWEgSlNPTi9IVFRQUyBBUEkiICIuTkVUIENvcmUiIHsKICAgICAgICAgICAgICAgIHNwYXBwIC0+IHRoaXMgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCgogICAgICAgICAgICAgICAgYzMgPSBjb21wb25lbnQgIkNvbXBvbmVudCAxIgogICAgICAgICAgICAgICAgYzQgPSBjb21wb25lbnQgIkNvbXBvbmVudCAyIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGRsYW1hIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBkbGFtYSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IHNwYXBwIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYXBpIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "labeler"
+      },
+      "name" : "Labeler",
+      "description" : "A user of the application acting as a data labeler",
+      "relationships" : [ {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Labeling / LogIn / Register"
+      }, {
+        "id" : "7",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Visits D-LAMA using a smartphone",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "10",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Views labeling projects and can label them",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "admin"
+      },
+      "name" : "Admin",
+      "description" : "A user of the application acting as an admin who provides the data and needs the data labeled",
+      "relationships" : [ {
+        "id" : "5",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Add Project / View Project / LogIn / Register"
+      }, {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "6",
+        "description" : "Visits D-LAMA using a desktop pc",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "11",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "9",
+        "description" : "Administrates and supervises the labeling projects",
+        "technology" : "HTTPS"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dlama"
+      },
+      "name" : "D-LAMA",
+      "description" : "Allows an admin to add a labeling project which needs to be labeled and allows a labeler to label a given project",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webapp"
+        },
+        "name" : "Web Application",
+        "description" : "Delivers the static content and the D-LAMA Progressiv Web Application",
+        "relationships" : [ {
+          "id" : "12",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "9",
+          "description" : "Delivers to the admin or labeler's web browser"
+        } ],
+        "technology" : "Node.js",
+        "documentation" : { }
+      }, {
+        "id" : "15",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "api"
+        },
+        "name" : "Server-side REST API",
+        "description" : "Provides the D-LAMA functionality via JSON/HTTPS API",
+        "technology" : ".NET Core",
+        "components" : [ {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c3"
+          },
+          "name" : "Component 1",
+          "documentation" : { }
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c4"
+          },
+          "name" : "Component 2",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "spapp"
+        },
+        "name" : "Progressiv Web Application",
+        "description" : "Provides all of the D-LAMA functionality to the admin and labeler via their web browser or mobile app",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "15",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "React and Ionic",
+        "components" : [ {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c1"
+          },
+          "name" : "Component 1",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c2"
+          },
+          "name" : "Component 2",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 1,
+      "softwareSystemId" : "3",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "4"
+      }, {
+        "id" : "5"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 2,
+      "softwareSystemId" : "3",
+      "dimensions" : {
+        "width" : 2101,
+        "height" : 2096
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 199,
+        "y" : 293
+      }, {
+        "id" : "2",
+        "x" : 1500,
+        "y" : 199
+      }, {
+        "id" : "15",
+        "x" : 870,
+        "y" : 1400
+      }, {
+        "id" : "6",
+        "x" : 440,
+        "y" : 909
+      }, {
+        "id" : "9",
+        "x" : 1275,
+        "y" : 910
+      } ],
+      "relationships" : [ {
+        "id" : "16"
+      }, {
+        "id" : "12"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-001",
+      "order" : 3,
+      "dimensions" : {
+        "width" : 1410,
+        "height" : 1411
+      },
+      "containerId" : "9",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "13",
+        "x" : 480,
+        "y" : 219
+      }, {
+        "id" : "14",
+        "x" : 480,
+        "y" : 819
+      } ]
+    }, {
+      "key" : "Component-002",
+      "order" : 4,
+      "dimensions" : {
+        "width" : 1380,
+        "height" : 1256
+      },
+      "containerId" : "15",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "17",
+        "x" : 219,
+        "y" : 664
+      }, {
+        "id" : "18",
+        "x" : 709,
+        "y" : 219
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : { },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "Component-001"
+    }
+  }
+}
