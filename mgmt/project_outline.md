@@ -139,6 +139,17 @@ The team is distributed in each segment seen on the left of the roadmap as descr
 
 ## 10 Economy
 
+Our idea to make data labelling possible from everywhere and in a fun way, was initially created to help the data science environment. We want to build a high quality system which is as intuitive as possible and which allows data science teams to get most of their data.
+
+As there are other products in the marked (4 Competitive Analysis), one of our biggest challenges will be to establish ourself in this marked. In order to make sure that our software really gets used in the beginning, we allow the Zurich University of Applied Sciences (ZHAW) a free use of the software for at least one year. This maximizes the opportunity that our software really gets used and with that also really gets tested. Our goal is to generate as much feedback as possible (from the users and admins) so we can then improve our software to make it more and more competitive. The use of the software also helps us a lot to win attention in the data labeling market. 
+
+For further usage or for other companies and universities we will offer a price model which depends on following factors:
+1.	Disk space used
+2.	Amount of labeled data 
+
+For each of these factors we will charge a fee which will be similar to the market standard. 
+
+
 ## 11 List of References
 
 - https://www.superannotate.com/blog/best-data-labeling-tools
