@@ -21,8 +21,25 @@ workspace {
                 admin -> this "Administrates and supervises the labeling projects" "HTTPS"
                 webapp -> this "Delivers to the admin or labeler's web browser"
 
-                c1 = component "Component 1"
-                c2 = component "Component 2"
+                signIn = component "Sign In Controller" "Allows labeler and admin to sign in to the D-LAMA App" "React and Ionic" {
+                    labeler -> this "SignIn" "HTTPS"
+                    admin -> this "SignIn" "HTTPS"
+                }
+
+                signOn = component "Sign On Controller" "Allows labeler and admin to register an account" "React and Ionic" {
+                    labeler -> this "SignOn" "HTTPS"
+                    admin -> this "SignOn" "HTTPS"
+                }
+
+                project = component "Project Controller" "Allows labler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
+                    labeler -> this "Views labeling projects" "HTTPS"
+                    admin -> this "Administrates and supervises the labeling projects" "HTTPS"
+                }
+
+                // c = component "" "" "React and Ionic" {
+                //     labeler -> this "" "HTTPS"
+                //     admin -> this "" "HTTPS"
+                // }
             }
 
             api = container "Server-side REST API" "Provides the D-LAMA functionality via JSON/HTTPS API" ".NET Core" {

@@ -2,10 +2,10 @@
   "id" : 1,
   "name" : "Name",
   "description" : "Description",
-  "lastModifiedDate" : "2023-03-31T05:07:40Z",
+  "lastModifiedDate" : "2023-03-31T11:02:15Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgbGFiZWxlciA9IHBlcnNvbiAiTGFiZWxlciIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGEgZGF0YSBsYWJlbGVyIgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGFuIGFkbWluIHdobyBwcm92aWRlcyB0aGUgZGF0YSBhbmQgbmVlZHMgdGhlIGRhdGEgbGFiZWxlZCIKCiAgICAgICAgZGxhbWEgPSBzb2Z0d2FyZVN5c3RlbSAiRC1MQU1BIiAiQWxsb3dzIGFuIGFkbWluIHRvIGFkZCBhIGxhYmVsaW5nIHByb2plY3Qgd2hpY2ggbmVlZHMgdG8gYmUgbGFiZWxlZCBhbmQgYWxsb3dzIGEgbGFiZWxlciB0byBsYWJlbCBhIGdpdmVuIHByb2plY3QiIHsKICAgICAgICAgICAgCiAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiTGFiZWxpbmcgLyBMb2dJbiAvIFJlZ2lzdGVyIgogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBZGQgUHJvamVjdCAvIFZpZXcgUHJvamVjdCAvIExvZ0luIC8gUmVnaXN0ZXIiCiAgICAgICAgICAgIAogICAgICAgICAgICB3ZWJhcHAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgIkRlbGl2ZXJzIHRoZSBzdGF0aWMgY29udGVudCBhbmQgdGhlIEQtTEFNQSBQcm9ncmVzc2l2IFdlYiBBcHBsaWNhdGlvbiIgIk5vZGUuanMiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIndlYmFwcCIKICAgICAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiVmlzaXRzIEQtTEFNQSB1c2luZyBhIHNtYXJ0cGhvbmUiICJIVFRQUyIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIlZpc2l0cyBELUxBTUEgdXNpbmcgYSBkZXNrdG9wIHBjIiAiSFRUUFMiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHB3YSA9IGNvbnRhaW5lciAiUHJvZ3Jlc3NpdiBXZWIgQXBwbGljYXRpb24iICJQcm92aWRlcyBhbGwgb2YgdGhlIEQtTEFNQSBmdW5jdGlvbmFsaXR5IHRvIHRoZSBhZG1pbiBhbmQgbGFiZWxlciB2aWEgdGhlaXIgd2ViIGJyb3dzZXIgb3IgbW9iaWxlIGFwcCIgIlJlYWN0IGFuZCBJb25pYyIgewogICAgICAgICAgICAgICAgdGFncyAicHdhIgogICAgICAgICAgICAgICAgbGFiZWxlciAtPiB0aGlzICJWaWV3cyBsYWJlbGluZyBwcm9qZWN0cyBhbmQgY2FuIGxhYmVsIHRoZW0iICJIVFRQUyIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIkFkbWluaXN0cmF0ZXMgYW5kIHN1cGVydmlzZXMgdGhlIGxhYmVsaW5nIHByb2plY3RzIiAiSFRUUFMiCiAgICAgICAgICAgICAgICB3ZWJhcHAgLT4gdGhpcyAiRGVsaXZlcnMgdG8gdGhlIGFkbWluIG9yIGxhYmVsZXIncyB3ZWIgYnJvd3NlciIKCiAgICAgICAgICAgICAgICBjMSA9IGNvbXBvbmVudCAiQ29tcG9uZW50IDEiCiAgICAgICAgICAgICAgICBjMiA9IGNvbXBvbmVudCAiQ29tcG9uZW50IDIiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwaSA9IGNvbnRhaW5lciAiU2VydmVyLXNpZGUgUkVTVCBBUEkiICJQcm92aWRlcyB0aGUgRC1MQU1BIGZ1bmN0aW9uYWxpdHkgdmlhIEpTT04vSFRUUFMgQVBJIiAiLk5FVCBDb3JlIiB7CiAgICAgICAgICAgICAgICB0YWdzICJhcGkiCiAgICAgICAgICAgICAgICBwd2EgLT4gdGhpcyAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKCiAgICAgICAgICAgICAgICBjMyA9IGNvbXBvbmVudCAiQ29tcG9uZW50IDEiCiAgICAgICAgICAgICAgICBjNCA9IGNvbXBvbmVudCAiQ29tcG9uZW50IDIiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGRiID0gY29udGFpbmVyICJEYXRhYmFzZSIgIlN0b3JlcyBsYWJlbGluZyBwcm9qZWN0cyBpbmZvcm1hdGlvbnMgYW5kIG1ldGEgZGF0YS4gU3RvcmVzIHVzZXIgcmVnaXN0cmF0aW9uIGluZm9ybWF0aW9uLCBoYXNoZWQgYXV0aGVudGljYXRpb24gY3JlZGVudGlhbHMsIGFjY2VzcyBsb2dzLCBldGMuIiAiTWljcm9zb2Z0IFNRTCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgIHRhZ3MgImRiIgogICAgICAgICAgICAgICAgYXBpIC0+IHRoaXMgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byAvIENSVUQiICJTUUwvVENQIgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1Db250ZXh0IGRsYW1hIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBkbGFtYSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgcHdhIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBhcGkgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAicHdhIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgImRiIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0CiAgICB9Cn0K"
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgbGFiZWxlciA9IHBlcnNvbiAiTGFiZWxlciIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGEgZGF0YSBsYWJlbGVyIgogICAgICAgIGFkbWluID0gcGVyc29uICJBZG1pbiIgIkEgdXNlciBvZiB0aGUgYXBwbGljYXRpb24gYWN0aW5nIGFzIGFuIGFkbWluIHdobyBwcm92aWRlcyB0aGUgZGF0YSBhbmQgbmVlZHMgdGhlIGRhdGEgbGFiZWxlZCIKCiAgICAgICAgZGxhbWEgPSBzb2Z0d2FyZVN5c3RlbSAiRC1MQU1BIiAiQWxsb3dzIGFuIGFkbWluIHRvIGFkZCBhIGxhYmVsaW5nIHByb2plY3Qgd2hpY2ggbmVlZHMgdG8gYmUgbGFiZWxlZCBhbmQgYWxsb3dzIGEgbGFiZWxlciB0byBsYWJlbCBhIGdpdmVuIHByb2plY3QiIHsKICAgICAgICAgICAgCiAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiTGFiZWxpbmcgLyBMb2dJbiAvIFJlZ2lzdGVyIgogICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJBZGQgUHJvamVjdCAvIFZpZXcgUHJvamVjdCAvIExvZ0luIC8gUmVnaXN0ZXIiCiAgICAgICAgICAgIAogICAgICAgICAgICB3ZWJhcHAgPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgIkRlbGl2ZXJzIHRoZSBzdGF0aWMgY29udGVudCBhbmQgdGhlIEQtTEFNQSBQcm9ncmVzc2l2IFdlYiBBcHBsaWNhdGlvbiIgIk5vZGUuanMiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIndlYmFwcCIKICAgICAgICAgICAgICAgIGxhYmVsZXIgLT4gdGhpcyAiVmlzaXRzIEQtTEFNQSB1c2luZyBhIHNtYXJ0cGhvbmUiICJIVFRQUyIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIlZpc2l0cyBELUxBTUEgdXNpbmcgYSBkZXNrdG9wIHBjIiAiSFRUUFMiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHB3YSA9IGNvbnRhaW5lciAiUHJvZ3Jlc3NpdiBXZWIgQXBwbGljYXRpb24iICJQcm92aWRlcyBhbGwgb2YgdGhlIEQtTEFNQSBmdW5jdGlvbmFsaXR5IHRvIHRoZSBhZG1pbiBhbmQgbGFiZWxlciB2aWEgdGhlaXIgd2ViIGJyb3dzZXIgb3IgbW9iaWxlIGFwcCIgIlJlYWN0IGFuZCBJb25pYyIgewogICAgICAgICAgICAgICAgdGFncyAicHdhIgogICAgICAgICAgICAgICAgbGFiZWxlciAtPiB0aGlzICJWaWV3cyBsYWJlbGluZyBwcm9qZWN0cyBhbmQgY2FuIGxhYmVsIHRoZW0iICJIVFRQUyIKICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIkFkbWluaXN0cmF0ZXMgYW5kIHN1cGVydmlzZXMgdGhlIGxhYmVsaW5nIHByb2plY3RzIiAiSFRUUFMiCiAgICAgICAgICAgICAgICB3ZWJhcHAgLT4gdGhpcyAiRGVsaXZlcnMgdG8gdGhlIGFkbWluIG9yIGxhYmVsZXIncyB3ZWIgYnJvd3NlciIKCiAgICAgICAgICAgICAgICBzaWduSW4gPSBjb21wb25lbnQgIlNpZ24gSW4gQ29udHJvbGxlciIgIkFsbG93cyBsYWJlbGVyIGFuZCBhZG1pbiB0byBzaWduIGluIHRvIHRoZSBELUxBTUEgQXBwIiAiUmVhY3QgYW5kIElvbmljIiB7CiAgICAgICAgICAgICAgICAgICAgbGFiZWxlciAtPiB0aGlzICJTaWduSW4iICJIVFRQUyIKICAgICAgICAgICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJTaWduSW4iICJIVFRQUyIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBzaWduT24gPSBjb21wb25lbnQgIlNpZ24gT24gQ29udHJvbGxlciIgIkFsbG93cyBsYWJlbGVyIGFuZCBhZG1pbiB0byByZWdpc3RlciBhbiBhY2NvdW50IiAiUmVhY3QgYW5kIElvbmljIiB7CiAgICAgICAgICAgICAgICAgICAgbGFiZWxlciAtPiB0aGlzICJTaWduT24iICJIVFRQUyIKICAgICAgICAgICAgICAgICAgICBhZG1pbiAtPiB0aGlzICJTaWduT24iICJIVFRQUyIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBwcm9qZWN0ID0gY29tcG9uZW50ICJQcm9qZWN0IENvbnRyb2xsZXIiICJBbGxvd3MgbGFibGVyIHRvIHZpZXcgYXZhaWxhYmxlIHByb2plY3RzIGFuZCBhbGxvd3MgYWRtaW4gdG8gYWRtaW5pc3RyYXRlIGFuZCBzdXBlcnZpc2UgdGhlIGxhYmVsaW5nIHByb2plY3RzIiAiUmVhY3QgYW5kIElvbmljIiB7CiAgICAgICAgICAgICAgICAgICAgbGFiZWxlciAtPiB0aGlzICJWaWV3cyBsYWJlbGluZyBwcm9qZWN0cyIgIkhUVFBTIgogICAgICAgICAgICAgICAgICAgIGFkbWluIC0+IHRoaXMgIkFkbWluaXN0cmF0ZXMgYW5kIHN1cGVydmlzZXMgdGhlIGxhYmVsaW5nIHByb2plY3RzIiAiSFRUUFMiCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gYyA9IGNvbXBvbmVudCAiIiAiIiAiUmVhY3QgYW5kIElvbmljIiB7CiAgICAgICAgICAgICAgICAvLyAgICAgbGFiZWxlciAtPiB0aGlzICIiICJIVFRQUyIKICAgICAgICAgICAgICAgIC8vICAgICBhZG1pbiAtPiB0aGlzICIiICJIVFRQUyIKICAgICAgICAgICAgICAgIC8vIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgYXBpID0gY29udGFpbmVyICJTZXJ2ZXItc2lkZSBSRVNUIEFQSSIgIlByb3ZpZGVzIHRoZSBELUxBTUEgZnVuY3Rpb25hbGl0eSB2aWEgSlNPTi9IVFRQUyBBUEkiICIuTkVUIENvcmUiIHsKICAgICAgICAgICAgICAgIHRhZ3MgImFwaSIKICAgICAgICAgICAgICAgIHB3YSAtPiB0aGlzICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgoKICAgICAgICAgICAgICAgIGMzID0gY29tcG9uZW50ICJDb21wb25lbnQgMSIKICAgICAgICAgICAgICAgIGM0ID0gY29tcG9uZW50ICJDb21wb25lbnQgMiIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGIgPSBjb250YWluZXIgIkRhdGFiYXNlIiAiU3RvcmVzIGxhYmVsaW5nIHByb2plY3RzIGluZm9ybWF0aW9ucyBhbmQgbWV0YSBkYXRhLiBTdG9yZXMgdXNlciByZWdpc3RyYXRpb24gaW5mb3JtYXRpb24sIGhhc2hlZCBhdXRoZW50aWNhdGlvbiBjcmVkZW50aWFscywgYWNjZXNzIGxvZ3MsIGV0Yy4iICJNaWNyb3NvZnQgU1FMIFNlcnZlciIgewogICAgICAgICAgICAgICAgdGFncyAiZGIiCiAgICAgICAgICAgICAgICBhcGkgLT4gdGhpcyAiUmVhZHMgZnJvbSBhbmQgd3JpdGVzIHRvIC8gQ1JVRCIgIlNRTC9UQ1AiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgZGxhbWEgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGRsYW1hIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGF1dG9sYXlvdXQgbHIKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBwd2EgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dCBscgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGFwaSB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvbGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJwd2EiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCAiZGIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgIH0KfQo="
   },
   "configuration" : { },
   "model" : {
@@ -18,11 +18,38 @@
       "name" : "Labeler",
       "description" : "A user of the application acting as a data labeler",
       "relationships" : [ {
+        "id" : "14",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "13",
+        "description" : "SignIn",
+        "technology" : "HTTPS"
+      }, {
         "id" : "7",
         "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "6",
         "description" : "Visits D-LAMA using a smartphone",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "4",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Labeling / LogIn / Register"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "16",
+        "description" : "SignOn",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "19",
+        "description" : "Views labeling projects",
         "technology" : "HTTPS"
       }, {
         "id" : "10",
@@ -31,12 +58,6 @@
         "destinationId" : "9",
         "description" : "Views labeling projects and can label them",
         "technology" : "HTTPS"
-      }, {
-        "id" : "4",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "3",
-        "description" : "Labeling / LogIn / Register"
       } ],
       "location" : "Unspecified"
     }, {
@@ -48,11 +69,11 @@
       "name" : "Admin",
       "description" : "A user of the application acting as an admin who provides the data and needs the data labeled",
       "relationships" : [ {
-        "id" : "8",
+        "id" : "21",
         "tags" : "Relationship",
         "sourceId" : "2",
-        "destinationId" : "6",
-        "description" : "Visits D-LAMA using a desktop pc",
+        "destinationId" : "19",
+        "description" : "Administrates and supervises the labeling projects",
         "technology" : "HTTPS"
       }, {
         "id" : "5",
@@ -60,6 +81,27 @@
         "sourceId" : "2",
         "destinationId" : "3",
         "description" : "Add Project / View Project / LogIn / Register"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "16",
+        "description" : "SignOn",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "13",
+        "description" : "SignIn",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "8",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "6",
+        "description" : "Visits D-LAMA using a desktop pc",
+        "technology" : "HTTPS"
       }, {
         "id" : "11",
         "tags" : "Relationship",
@@ -80,51 +122,6 @@
       "description" : "Allows an admin to add a labeling project which needs to be labeled and allows a labeler to label a given project",
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "19",
-        "tags" : "Element,Container,db",
-        "properties" : {
-          "structurizr.dsl.identifier" : "db"
-        },
-        "name" : "Database",
-        "description" : "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc.",
-        "technology" : "Microsoft SQL Server",
-        "documentation" : { }
-      }, {
-        "id" : "15",
-        "tags" : "Element,Container,api",
-        "properties" : {
-          "structurizr.dsl.identifier" : "api"
-        },
-        "name" : "Server-side REST API",
-        "description" : "Provides the D-LAMA functionality via JSON/HTTPS API",
-        "relationships" : [ {
-          "id" : "20",
-          "tags" : "Relationship",
-          "sourceId" : "15",
-          "destinationId" : "19",
-          "description" : "Reads from and writes to / CRUD",
-          "technology" : "SQL/TCP"
-        } ],
-        "technology" : ".NET Core",
-        "components" : [ {
-          "id" : "17",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "c3"
-          },
-          "name" : "Component 1",
-          "documentation" : { }
-        }, {
-          "id" : "18",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "c4"
-          },
-          "name" : "Component 2",
-          "documentation" : { }
-        } ],
-        "documentation" : { }
-      }, {
         "id" : "6",
         "tags" : "Element,Container,webapp",
         "properties" : {
@@ -150,27 +147,86 @@
         "name" : "Progressiv Web Application",
         "description" : "Provides all of the D-LAMA functionality to the admin and labeler via their web browser or mobile app",
         "relationships" : [ {
-          "id" : "16",
+          "id" : "23",
           "tags" : "Relationship",
           "sourceId" : "9",
-          "destinationId" : "15",
+          "destinationId" : "22",
           "description" : "Makes API calls to",
           "technology" : "JSON/HTTPS"
         } ],
         "technology" : "React and Ionic",
         "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "signon"
+          },
+          "name" : "Sign On Controller",
+          "description" : "Allows labeler and admin to register an account",
+          "technology" : "React and Ionic",
+          "documentation" : { }
+        }, {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "project"
+          },
+          "name" : "Project Controller",
+          "description" : "Allows labler to view available projects and allows admin to administrate and supervise the labeling projects",
+          "technology" : "React and Ionic",
+          "documentation" : { }
+        }, {
           "id" : "13",
           "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "c1"
+            "structurizr.dsl.identifier" : "signin"
+          },
+          "name" : "Sign In Controller",
+          "description" : "Allows labeler and admin to sign in to the D-LAMA App",
+          "technology" : "React and Ionic",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "26",
+        "tags" : "Element,Container,db",
+        "properties" : {
+          "structurizr.dsl.identifier" : "db"
+        },
+        "name" : "Database",
+        "description" : "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc.",
+        "technology" : "Microsoft SQL Server",
+        "documentation" : { }
+      }, {
+        "id" : "22",
+        "tags" : "Element,Container,api",
+        "properties" : {
+          "structurizr.dsl.identifier" : "api"
+        },
+        "name" : "Server-side REST API",
+        "description" : "Provides the D-LAMA functionality via JSON/HTTPS API",
+        "relationships" : [ {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "22",
+          "destinationId" : "26",
+          "description" : "Reads from and writes to / CRUD",
+          "technology" : "SQL/TCP"
+        } ],
+        "technology" : ".NET Core",
+        "components" : [ {
+          "id" : "24",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "c3"
           },
           "name" : "Component 1",
           "documentation" : { }
         }, {
-          "id" : "14",
+          "id" : "25",
           "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "c2"
+            "structurizr.dsl.identifier" : "c4"
           },
           "name" : "Component 2",
           "documentation" : { }
@@ -199,23 +255,23 @@
         "vertices" : false
       },
       "enterpriseBoundaryVisible" : true,
-      "elements" : [ {
-        "id" : "1",
-        "x" : 199,
-        "y" : 199
-      }, {
-        "id" : "2",
-        "x" : 199,
-        "y" : 899
-      }, {
-        "id" : "3",
-        "x" : 899,
-        "y" : 599
-      } ],
       "relationships" : [ {
         "id" : "4"
       }, {
         "id" : "5"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 900
+      }, {
+        "id" : "3",
+        "x" : 900,
+        "y" : 600
       } ]
     } ],
     "containerViews" : [ {
@@ -235,87 +291,61 @@
         "vertices" : false
       },
       "externalSoftwareSystemBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "1",
-        "x" : 199,
-        "y" : 199
-      }, {
-        "id" : "2",
-        "x" : 199,
-        "y" : 1024
-      }, {
-        "id" : "15",
-        "x" : 2399,
-        "y" : 724
-      }, {
-        "id" : "6",
-        "x" : 899,
-        "y" : 724
-      }, {
-        "id" : "19",
-        "x" : 3149,
-        "y" : 724
-      }, {
-        "id" : "9",
-        "x" : 1649,
-        "y" : 724
-      } ],
       "relationships" : [ {
-        "id" : "16"
+        "id" : "27"
+      }, {
+        "id" : "23"
       }, {
         "id" : "12"
       }, {
         "id" : "11",
         "vertices" : [ {
           "x" : 1349,
-          "y" : 1174
+          "y" : 1175
         } ]
       }, {
         "id" : "7"
       }, {
         "id" : "8"
       }, {
-        "id" : "20"
-      }, {
         "id" : "10",
         "vertices" : [ {
           "x" : 1349,
-          "y" : 574
+          "y" : 575
         } ]
+      } ],
+      "elements" : [ {
+        "id" : "22",
+        "x" : 2399,
+        "y" : 725
+      }, {
+        "id" : "1",
+        "x" : 199,
+        "y" : 200
+      }, {
+        "id" : "2",
+        "x" : 199,
+        "y" : 1025
+      }, {
+        "id" : "26",
+        "x" : 3149,
+        "y" : 725
+      }, {
+        "id" : "6",
+        "x" : 899,
+        "y" : 725
+      }, {
+        "id" : "9",
+        "x" : 1649,
+        "y" : 725
       } ]
     } ],
     "componentViews" : [ {
-      "key" : "Component-002",
-      "order" : 4,
-      "dimensions" : {
-        "width" : 1230,
-        "height" : 1411
-      },
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "LeftRight",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "containerId" : "15",
-      "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "17",
-        "x" : 390,
-        "y" : 219
-      }, {
-        "id" : "18",
-        "x" : 390,
-        "y" : 819
-      } ]
-    }, {
       "key" : "Component-001",
       "order" : 3,
       "dimensions" : {
-        "width" : 1410,
-        "height" : 1411
+        "width" : 1570,
+        "height" : 2011
       },
       "automaticLayout" : {
         "implementation" : "Graphviz",
@@ -327,14 +357,74 @@
       },
       "containerId" : "9",
       "externalContainerBoundariesVisible" : true,
-      "elements" : [ {
-        "id" : "13",
-        "x" : 480,
-        "y" : 219
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 796,
+          "y" : 669
+        } ]
+      }, {
+        "id" : "17"
+      }, {
+        "id" : "15"
       }, {
         "id" : "14",
-        "x" : 480,
+        "vertices" : [ {
+          "x" : 796,
+          "y" : 1269
+        } ]
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 200,
+        "y" : 419
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 1119
+      }, {
+        "id" : "13",
+        "x" : 900,
+        "y" : 1419
+      }, {
+        "id" : "16",
+        "x" : 900,
+        "y" : 219
+      }, {
+        "id" : "19",
+        "x" : 900,
         "y" : 819
+      } ]
+    }, {
+      "key" : "Component-002",
+      "order" : 4,
+      "paperSize" : "A6_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 1558
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "22",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "24",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "25",
+        "x" : 329,
+        "y" : 929
       } ]
     } ],
     "configuration" : {
@@ -351,7 +441,7 @@
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
       "metadataSymbols" : "SquareBrackets",
-      "lastSavedView" : "Container-001"
+      "lastSavedView" : "Component-001"
     }
   }
 }
