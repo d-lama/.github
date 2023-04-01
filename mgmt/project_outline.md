@@ -70,9 +70,9 @@ In this chapter of the project outline, we will outline the main sequence for th
 1.	User opens D-LAMA web app and is prompted to log in with their account credentials.
 2.	After logging in, the user is directed to their dashboard where they can view a list of labeling projects.
 3.	The user selects a specific labeling project from the list to start working on.
-4.	The selected project opens and displays the first un data point.
-5.	The user swipes up, down, left, or right to label the data point, or skips the dataset if unsure.
-6.	The app automatically loads the next dataset in the sequence, and the user repeats step 5 until all datasets have been.
+4.	The selected project opens and displays the first data point.
+5.	The user swipes up, down, left, or right to label the data point, or skips it if unsure.
+6.	The app automatically loads the next data point in the sequence, and the user repeats step 5 until the whole dataset is labled.
 7.	When the user finishes labeling all datasets in the project, they are directed back to their dashboard and can view their progress on the project.
 8.	The user can select another project from their dashboard and start a new labeling process.
 
@@ -107,10 +107,10 @@ The estimated effort for realizing the prototype of "D-LAMA" application amounts
 When developing an application like D-LAMA, there are risks that affect the development of the application, but also the end result. The four most important risks of D-LAMA are explained below:
 
 **A. Quality risk:**
-Although all the team members are experienced in programming and have worked together before, there is still a possible risk that the resulting application does not correspond the expected quality. Factors such as in this project used but partially new technologies, communication issues and errors in the code or the logic itself play a big part in the resulting quality of the program. By ensuring a working testing environment and embedding tests for at least the most important functions of the application, errors can be diminished. Coding and coworking guidelines not also help with the same problem but ensure a better way of communication and sharing code. Furthermore, it is of great importance that the costumer gets involved from the start of the project, so it is clear which quality shall be strived for.
+Although all the team members are experienced in programming and have worked together before, there is still a possible risk that the resulting application does not correspond the expected quality. Factors such as new technologies, communication issues and errors in the code or the logic itself play a big part in the resulting quality of the program. By ensuring a working testing environment and embedding tests for at least the most important functions of the application, errors can be diminished. Coding and coworking guidelines help with the same problem and ensure a better way of communication and sharing code. Furthermore, it is of great importance that the customer gets involved from the beginning of the project, to get an agile and feedback loop.
 
 **B. Resource scarcity:**
-The most valuable resource in this project is possibly the time of the team members. Since this project is part of the bachelor studies in computer science at the ZHAW and all the involved team members are part-time studies, time is a valuable good. With a structured and especially dynamic project plan, the team should be able to schedule the work efficient and therefore timesaving. In addition to time, there are also some more concrete resources, which are scarce: All things regarding the needed IT-infrastructure. Fortunately, the ZHAW does provide its students with a fault-tolerant IT infrastructure hosted on-site. The team could choose between two virtual machines on an OpenStack cluster or two Rancher Kubernetes namespaces. To be more flexible, both were ordered.
+The most valuable resource in this project is possibly the time of the team members. Since this project is part of the bachelor studies in computer science at the ZHAW and all the involved team members are part-time students, time is a valuable good. With a structured and especially dynamic project plan, the team should be able to schedule the work efficient and therefore timesaving. In addition to time, there are also some more concrete resources, which are scarce: All things regarding the needed IT-infrastructure. Fortunately, the ZHAW does provide computer science students with a fault-tolerant IT infrastructure hosted on-site. The team could choose between two virtual machines on an OpenStack cluster or two Rancher Kubernetes namespaces. To be more flexible, both were ordered.
 
 **C. User acceptance:**
 In the end, the D-LAMA application is a product ordered by a costumer. Not fulfilling her acceptance criteria would be a failure. Therefore, the user acceptance is a huge risk given in many (software) projects. A good communication with the costumer from the beginning of the project to its conclusion as well as a good structured and dynamic method to document and track issues are mandatory.
@@ -139,9 +139,9 @@ The team is distributed in each segment seen on the left of the roadmap as descr
 
 ## 10 Economy
 
-Our idea to make data labelling possible from everywhere and in a fun way, was initially created to help the data science environment. We want to build a high quality system which is as intuitive as possible and which allows data science teams to get most of their data.
+Our idea to make data labelling possible from everywhere and in a fun way, was initially created to help the data science environment. We want to build a high quality system which is as intuitive as possible and allows data science teams to get most of their data.
 
-As there are other products in the marked (4 Competitive Analysis), one of our biggest challenges will be to establish ourself in this marked. In order to make sure that our software really gets used in the beginning, we allow the Zurich University of Applied Sciences (ZHAW) a free use of the software for at least one year. This maximizes the opportunity that our software really gets used and with that also really gets tested. Our goal is to generate as much feedback as possible (from the users and admins) so we can then improve our software to make it more and more competitive. The use of the software also helps us a lot to win attention in the data labeling market. 
+As there are other products in the market (4 Competitive Analysis), one of our biggest challenges will be to establish ourself in this marked. In order to make sure that our software really gets used in the beginning, we allow the Zurich University of Applied Sciences (ZHAW) a free use of the software for at least one year. This maximizes the opportunity that our software really gets used and with that also really gets tested. Our goal is to generate as much feedback as possible (from the users and admins) so we can then improve our software to make it more and more competitive. The use of the software also helps us a lot to win attention in the data labeling market. 
 
 For further usage or for other companies and universities we will offer a price model which depends on following factors:
 1.	Disk space used
