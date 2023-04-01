@@ -5,7 +5,6 @@ workspace {
         admin = person "Admin" "A user of the application acting as an admin who provides the data and needs the data labeled"
 
         dlama = softwareSystem "D-LAMA" "Allows an admin to add a labeling project which needs to be labeled and allows a labeler to label a given project" {
-            
             labeler -> this "Labeling / LogIn / Register"
             admin -> this "Add Project / View Project / LogIn / Register"
             
@@ -21,33 +20,44 @@ workspace {
                 admin -> this "Administrates and supervises the labeling projects" "HTTPS"
                 webapp -> this "Delivers to the admin or labeler's web browser"
 
-                signIn = component "Sign In Controller" "Allows labeler and admin to sign in to the D-LAMA App" "React and Ionic" {
+                signInFront = component "Sign In Controller" "Allows labeler and admin to sign in to the D-LAMA App" "React and Ionic" {
                     labeler -> this "SignIn" "HTTPS"
                     admin -> this "SignIn" "HTTPS"
                 }
 
-                signOn = component "Sign On Controller" "Allows labeler and admin to register an account" "React and Ionic" {
+                signOnFront = component "Sign On Controller" "Allows labeler and admin to register an account" "React and Ionic" {
                     labeler -> this "SignOn" "HTTPS"
                     admin -> this "SignOn" "HTTPS"
                 }
 
-                project = component "Project Controller" "Allows labler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
+                project = component "Project Controller" "Allows labeler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
                     labeler -> this "Views labeling projects" "HTTPS"
                     admin -> this "Administrates and supervises the labeling projects" "HTTPS"
                 }
 
-                // c = component "" "" "React and Ionic" {
-                //     labeler -> this "" "HTTPS"
-                //     admin -> this "" "HTTPS"
-                // }
+                label = component "Label Controller" "Allows labeler to label available projects" "React and Ionic" {
+                    labeler -> this "Labels projects" "HTTPS"
+                }
             }
 
             api = container "Server-side REST API" "Provides the D-LAMA functionality via JSON/HTTPS API" ".NET Core" {
                 tags "api"
-                pwa -> this "Makes API calls to" "JSON/HTTPS"
+                !constant JH_TEXT "JSON/HTTPS"
 
-                c3 = component "Component 1"
-                c4 = component "Component 2"
+                pwa -> this "Makes API calls to" "${JH_TEXT}"
+                
+                project -> this "..." "${JH_TEXT}"
+                label -> this "..." "${JH_TEXT}"
+
+                signInBack = component "Sign In Controller" "Allows users to sign in to D-LAMA System" ".NET Core" {
+                    signInFront -> this "Login Request" "${JH_TEXT}"
+                    signOnFront -> this "Register Request" "${JH_TEXT}"
+                }
+
+                // c = component "" "" "" {
+                //     labeler -> this "" ""
+                //     admin -> this "" ""
+                // }
             }
 
             db = container "Database" "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc." "Microsoft SQL Server" {
@@ -65,17 +75,14 @@ workspace {
 
         container dlama {
             include *
-            autolayout lr
         }
 
         component pwa {
             include *
-            autolayout lr
         }
 
         component api {
             include *
-            autolayout lr
         }
 
         styles {
