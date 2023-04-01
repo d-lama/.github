@@ -63,6 +63,7 @@ workspace {
             db = container "Database" "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc." "Microsoft SQL Server" {
                 tags "db"
                 api -> this "Reads from and writes to / CRUD" "SQL/TCP"
+                signInBack -> this "Checks user" "SQL/TCP"
             }
         }
     }
