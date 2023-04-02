@@ -130,12 +130,12 @@ The table below is intended to show the four risks described according to their 
 | almost certain              |               |       D      |       |          |
 
 
-## 9 Rough Planning (Noah)
-
-### 9.1 Roadmap
-![Product Roadmap - small](https://user-images.githubusercontent.com/23722189/229269730-829601fd-6d86-4d69-ba3b-6dfa99faf0d6.png)
+## 9 Rough Planning
 
 The team is distributed in each segment seen on the left of the roadmap as described in the resource chapter. Milestones are achieved if the task on the date the milestone is set fulfills all requirements defined with the milestones description. If the milestone contains software on the date the milestone is set the software works as intended, includes unit tests for all components that are green and has been seen and reviewed by the team as part of a meeting.
+
+### 9.1 Roadmap
+![Product Roadmap - small](https://user-images.githubusercontent.com/23722189/229341117-702473cb-40e7-47cd-ba73-91dc77281032.png)
 
 ## 10 Economy
 
