@@ -54,6 +54,15 @@ The development team is mixed with different knw-how-levels. Because of the fact
 
 ## 5. Principles
 
+### Best Practice
+Software development best practices can vary depending on the context and specific requirements of a project, but some common practices that are generally considered to be beneficial include:
+
+* Following an Agile methodology for flexible and iterative development
+* Implementing Continuous Integration and Delivery for efficient and reliable software releases
+* Writing clean and maintainable code using best coding practices and principles like SOLID and DRY
+* Ensure requirements and qaulity thorough testing
+* Collaborating effectively across teams and communicating clearly and frequently with clients.
+
 ### Agile Development
 Agile development is a software development methodology that emphasizes flexibility, collaboration, and rapid iteration. It emphasizes continuous feedback and the ability to respond quickly to changes in requirements. As an agile team we work in short, focused sprints to deliver incremental improvements to the software.
 
@@ -72,8 +81,6 @@ SOLID is an acronym that stands for five principles of object-oriented programmi
 4. **I**nterface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in a way that clients only depend on the methods they need and do not have to implement methods they do not need.
 
 5. **D**ependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This means that the design should depend on abstractions instead of specific implementations, and it should be easy to change the implementation without affecting the rest of the system.
-
-### Best Practice
 
 ### Continous Integration
 Continuous Integration (CI) is a software development practice that involves merging code changes from multiple developers into a shared code repository multiple times a day. This allows teams to catch integration errors and conflicts early on and fix them quickly. CI also involves running automated tests and builds to ensure that the code is functional and meets the project's requirements.
