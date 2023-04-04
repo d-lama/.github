@@ -47,20 +47,50 @@ $$TimePerECTS = 30h$$
 
 $$NumberOfDevelopers = 8$$
 
-$$= 4 * 30 * 8  = 840h$$
+$$= 4 * 30 * 8  = 960h$$
 
 ### Know-How
 The development team is mixed with different knw-how-levels. Because of the fact everyone is a computer science student the foundations of developing is given. Handling new technologies and different aspects of software development and management is for sure a challange which needs to be mentioned. Lots of things are learning by doing and therefore take longer than usual.
 
 ## 5. Principles
 
+### Agile Development
+Agile development is a software development methodology that emphasizes flexibility, collaboration, and rapid iteration. It emphasizes continuous feedback and the ability to respond quickly to changes in requirements. As an agile team we work in short, focused sprints to deliver incremental improvements to the software.
+
+### Kanban
+Kanban is a visual project management framework that helps teams manage workflow and increase efficiency. It is based on the principles of just-in-time manufacturing, limiting work in progress, and optimizing flow. Kanban boards typically use cards or sticky notes to represent work items, we use the Github Issueboard organized into columns that represent the stages of the workflow. Every Kanban iteration is three weeks long.
+
+### SOLID
+SOLID is an acronym that stands for five principles of object-oriented programming and design. Here are the explanations for each point of SOLID:
+
+1. **S**ingle Responsibility Principle (SRP): A class should have only one reason to change. This means that a class should have only one responsibility or job to perform, and it should not be responsible for more than one thing.
+
+2. **O**pen-Closed Principle (OCP): A class should be open for extension but closed for modification. This means that a class should be designed in a way that it can be extended or modified without changing its existing behavior or implementation.
+
+3. **L**iskov Substitution Principle (LSP): Subtypes should be substitutable for their base types. This means that a subclass should be able to be used in place of its superclass without causing any errors or unexpected behavior.
+
+4. **I**nterface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use. This means that interfaces should be designed in a way that clients only depend on the methods they need and do not have to implement methods they do not need.
+
+5. **D**ependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions. This means that the design should depend on abstractions instead of specific implementations, and it should be easy to change the implementation without affecting the rest of the system.
+
 ### Best Practice
 
 ### Continous Integration
+Continuous Integration (CI) is a software development practice that involves merging code changes from multiple developers into a shared code repository multiple times a day. This allows teams to catch integration errors and conflicts early on and fix them quickly. CI also involves running automated tests and builds to ensure that the code is functional and meets the project's requirements.
 
 ### Continous Delivery
+Continuous Delivery (CD) is a software development practice that involves automating the entire software release process so that code changes can be reliably and frequently released to production. This involves building, testing, and deploying code changes in a fast and automated way, with the goal of reducing time to market, increasing efficiency, and improving the quality of the software. CD is often associated with Agile and DevOps methodologies and relies heavily on automation and collaboration across teams.
 
 ### Contribution Guidelines
+  <ul>
+    <li>Pick an issue you'd like to tackle and assign it to you.</li>
+    <li>Create a new branch from main to work on the issue with it's correct tag (e.g. feat/issue_1).</li>
+    <li>If one issue depends from another issue take that branch as base (dependent issues can happen, should be avoided at all costs).</li>
+    <li>Prefix every commit you are making as suggested in <a href="https://github.com/semantic-release/semantic-release#how-does-it-work">semantic release</a> and add a meaningful description.</li>
+    <li>Check the coding guidelines (link follows) for a clean and maintainable code</li>
+    <li>If you have solved the issue, let it review from min. one other person.</li>
+    <li>As a reviewer, make sure you point out what was good, what was bad and how you'd do it differently. Also make sure you take time for a review, because they are very important for consistency and maintainability.</li>
+  </ul>
 
 ## 6. Software Architecture
 
@@ -68,7 +98,7 @@ The development team is mixed with different knw-how-levels. Because of the fact
 
 ## 7. External Interfaces
 
-(wird nicht benötigt)
+No external interfaces or APIs are used for the moment.
 
 ## 8. Code
 
@@ -90,8 +120,28 @@ The development team is mixed with different knw-how-levels. Because of the fact
   </div>
 </details>
 
+<details>
+  <summary id="cd"><h3>Develop backend and fronend separately</h3></summary>
+  We have decided to develop the backend and frontend separately for the webapp D-LAMA.
+  <div dir='rtl'>
+  <a href="/tech/adr/0001-develop-frontend-and-backend-separately.md">Read more</a>
+  </div>
+</details>
+
+<details>
+  <summary id="cd"><h3>Use ASP.NET Core</h3></summary>
+  We have decided to use ASP.NET Core for creating the backend of D-LAMA
+  <div dir='rtl'>
+  <a href="/tech/adr/0002-use-asp-net-core.md">Read more</a>
+  </div>
+</details>
+
+<details>
+  <summary id="cd"><h3>Implement Repository and Unit of Work Patterns</h3></summary>
+  We have decided to implement the Repository and Unit of Work Patterns in the backend of D-LAMA. 
+  <div dir='rtl'>
+  <a href="/tech/adr/0003-implement-repository_and_unit_of_work_patterns.md">Read more</a>
+  </div>
+</details>
+
 (Hier ADR files verlinken)
-
-## 14. Contributing
-
-## 15. Contributor Covenant Code of Conduct
