@@ -7,13 +7,11 @@
 🌈 Contribution guidelines - Currently only members of the group can contribute. For this, an issue can be selected and implemented. for more info check the [detailed guildelines](#cd).
 
 👩‍💻 Useful resources - All our docs are written directly in the code or in this repository:
-* [Recent Weekly Standup](/weekly/23_17_03.md) | [List](/weekly)
+* [Recent Weekly Standup](/weekly/23_30_03.md) | [List](/weekly)
 * [Project Outline](/mgmt/project_outline.md)
 * [Product Backlog](/mgmt/product_backlog.md)
-* Issue Boards (link are following)
+* Issue Boards for [Service](https://github.com/orgs/d-lama/projects/2) | [Webapp](https://github.com/orgs/d-lama/projects/4) | [Operations](https://github.com/orgs/d-lama/projects/5)
 * [Wiki](/tech)
-* Frontend (link is following)
-* Backend (link is following)
 
 🦙 If you figure out what D-LAMA stands for write it in here and make a merge request 🦙
 <!--
@@ -38,4 +36,49 @@
     <li>If you have solved the issue, let it review from min. one other person.</li>
     <li>As a reviewer, make sure you point out what was good, what was bad and how you'd do it differently. Also make sure you take time for a review, because they are very important for consistency and maintainability.</li>
   </ul>
+</details>
+
+<details>
+  <summary id="cd"><h2>Responsibilities & Roles</h2></summary>
+
+  This site lists the main responsibilities of each group member. This does not exclude a member from doing work in another role, but helps defines the main responsibility.
+
+  ### Roles
+  #### Project Owner 
+  * Define features of the product
+  * Defines priorities of the features 
+  * Defines acceptance criteria
+  * Runs Weekly meeting
+
+  #### Infrastructure and DevOps
+  * Sets up the environment
+  * Patches the environment
+  * Defines and implements CI/CD pipeline
+
+  #### Frontend
+  * Create UI mockups
+  * Styling and implementing the UI
+  * Tests the UI
+
+  #### Backend
+  * Defines the backend logic
+  * Defines the database scheme
+  * Defines the REST API
+  * Tests the backend logic 
+
+  #### Assigned Roles 
+
+  | User                                                | Project Owner | Infrastructure & Devops | Frontend | Backend |
+  |-----------------------------------------------------|---------------|-------------------------|----------|---------|
+  | [Gabriel Nobel](https://github.com/Yingrjimsch)     | 🔶            | 🔶                      |          |         |
+  | [David Feuereissen](https://github.com/DavidFeu)    | 🔷            | 🔶                      |          |         |
+  | [Rebekka von Wartburg](https://github.com/vonwareb) |               |                         | 🔶       |         |
+  | [Noah Lichtenecker](https://github.com/noegeler)    |               |                         | 🔶       |         |
+  | [Shazad Mohammed](https://github.com/schazadm)      |               |                         | 🔶       |         |
+  | [Stefanie Sigrist](https://github.com/sigrist3)     |               |                         |          | 🔶      |
+  | [Gianmarco Güntert](https://github.com/guentgia)    |               |                         |          | 🔶      |
+  | [Joel Grand](https://github.com/joelgrand)          |               |                         |          | 🔶      |
+
+  * 🔶 = User assigned to this role
+  * 🔷 = Deputy for this role
 </details>
