@@ -100,8 +100,7 @@ Continuous Delivery (CD) is a software development practice that involves automa
   </ul>
 
 ## 6. Software Architecture
-
-(Diagramme)
+<a href="/tech/c4model/readme.md">Diagrams</a>
 
 ## 7. External Interfaces
 
