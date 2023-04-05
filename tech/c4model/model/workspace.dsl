@@ -30,12 +30,12 @@ workspace {
                     admin -> this "SignOn" "HTTPS"
                 }
 
-                project = component "Project Controller" "Allows labeler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
+                projectFront = component "Project Controller" "Allows labeler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
                     labeler -> this "Views labeling projects" "HTTPS"
                     admin -> this "Administrates and supervises the labeling projects" "HTTPS"
                 }
 
-                label = component "Label Controller" "Allows labeler to label available projects" "React and Ionic" {
+                labelFront = component "Label Controller" "Allows labeler to label available projects" "React and Ionic" {
                     labeler -> this "Labels projects" "HTTPS"
                 }
             }
@@ -45,25 +45,33 @@ workspace {
                 !constant JH_TEXT "JSON/HTTPS"
 
                 pwa -> this "Makes API calls to" "${JH_TEXT}"
-                
-                project -> this "..." "${JH_TEXT}"
-                label -> this "..." "${JH_TEXT}"
 
-                signInBack = component "Sign In Controller" "Allows users to sign in to D-LAMA System" ".NET Core" {
-                    signInFront -> this "Login Request" "${JH_TEXT}"
+                userBack = component "User Controller" "Allows user to register themselves and sign in to D-LAMA" ".NET Core" {
+                    pwa -> this "Login and Register request" "${JH_TEXT}"
                     signOnFront -> this "Register Request" "${JH_TEXT}"
+                    signInFront -> this "Login Request" "${JH_TEXT}"
                 }
 
-                // c = component "" "" "" {
-                //     labeler -> this "" ""
-                //     admin -> this "" ""
-                // }
+                projectBack = component "Project Controller" "Allows admins to create and maintain a project" ".NET Core" {
+                    projectFront -> this "Views and edits labeling projects" "${JH_TEXT}"
+                }
+
+                labelBack = component "Label Controller" "Allows admins to create labels for a project" ".NET Core" {
+                    labelFront -> this "Views and edits labels of a specific project" "${JH_TEXT}"
+                }
             }
 
-            db = container "Database" "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc." "Microsoft SQL Server" {
+            efcore = container "Entity Framework Core" "EF Core is a modern object-database mapper for .NET and makes working with databases easier." ".NET Core" {
+                tags "efcore"
+                api -> this "Uses" ".NET Core"
+                userBack -> this "Uses" ".NET Core"
+                projectBack -> this "Uses" ".NET Core"
+                labelBack -> this "Uses" ".NET Core"
+            }
+
+            db = container "Database" "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc." "MSSQL" {
                 tags "db"
-                api -> this "Reads from and writes to / CRUD" "SQL/TCP"
-                signInBack -> this "Checks user" "SQL/TCP"
+                efcore -> this "Reads from and writes to / CRUD" "SQL/TCP"
             }
         }
     }
@@ -76,6 +84,7 @@ workspace {
 
         container dlama {
             include *
+            autolayout lr
         }
 
         component pwa {
@@ -84,6 +93,7 @@ workspace {
 
         component api {
             include *
+            autolayout tb
         }
 
         styles {
@@ -94,8 +104,16 @@ workspace {
             element "db" {
                 shape Cylinder
             }
+
+            element "efcore" {
+                shape Pipe
+            }
         }
 
+        properties {
+            structurizr.locale en-GB
+        }
+        
         theme default
     }
 }
