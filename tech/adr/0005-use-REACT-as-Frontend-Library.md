@@ -2,9 +2,9 @@
 # These are optional elements. Feel free to remove any of them.
 status: {accepted}
 date: {2023-03-22}
-deciders: {Rebekka, Shazad, Noah}
+deciders: {Noah, Rebekka, Shazad}
 consulted: {Gabriel}
-informed: {David, Gabriel, Stefanie, Gianmarco, Joel}
+informed: {David, Gabriel, Gianmarco, Joel, Stefanie}
 ---
 # Use REACT as Frontend Library
 
