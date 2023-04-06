@@ -150,4 +150,29 @@ No external interfaces or APIs are used for the moment.
   </div>
 </details>
 
+<details>
+  <summary id="cd"><h3>Implement REST API</h3></summary>
+  We have decided to implement a REST API for the webapp D-LAMA
+  <div dir='rtl'>
+  <a href="/tech/adr/0004-implement-rest-api.md">Read more</a>
+  </div>
+</details>
+
+<details>
+  <summary id="cd"><h3>Use REACT as Frontend Library</h3></summary>
+  We have decided to use React as frontend library.
+  <div dir='rtl'>
+  <a href="/tech/adr/0005-use-REACT-as-frontend-library.md">Read more</a>
+  </div>
+</details>
+
+<details>
+  <summary id="cd"><h3>Use IONIC as Frontend Framework
+</h3></summary>
+  We have decided to use React as additional component library.
+  <div dir='rtl'>
+  <a href="/tech/adr/0006-use-IONIC-as-frontend-framework.md">Read more</a>
+  </div>
+</details>
+
 (Hier ADR files verlinken)
