@@ -74,7 +74,7 @@
   | [David Feuereissen](https://github.com/DavidFeu)    | 🔷            | 🔶                      |          |         |
   | [Rebekka von Wartburg](https://github.com/vonwareb) |               |                         | 🔶       |         |
   | [Noah Lichtenecker](https://github.com/noegeler)    |               |                         | 🔶       |         |
-  | [Shazad Mohammed](https://github.com/schazadm)      |               |                         | 🔶       |         |
+  | [Schazad Mohammad](https://github.com/schazadm)      |               |                         | 🔶       |         |
   | [Stefanie Sigrist](https://github.com/sigrist3)     |               |                         |          | 🔶      |
   | [Gianmarco Güntert](https://github.com/guentgia)    |               |                         |          | 🔶      |
   | [Joel Grand](https://github.com/joelgrand)          |               |                         |          | 🔶      |
