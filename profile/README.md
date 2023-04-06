@@ -8,7 +8,7 @@
 
 👩‍💻 Useful resources - All our docs are written directly in the code or in this repository:
 * [Recent Weekly Standup](/weekly/23_30_03.md) | [List](/weekly)
-* [Project Outline](/mgmt/project_outline.md)
+* Project Outline [Markdown](/mgmt/project_outline.md) | [PDF](/mgmt/project_outline.pdf)
 * [Product Backlog](/mgmt/product_backlog.md)
 * Issue Boards for [Service](https://github.com/orgs/d-lama/projects/2) | [Webapp](https://github.com/orgs/d-lama/projects/4) | [Operations](https://github.com/orgs/d-lama/projects/5)
 * [Wiki](/tech)
