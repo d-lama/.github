@@ -6,12 +6,14 @@ workspace {
 
         dlama = softwareSystem "D-LAMA" "Allows an admin to add a labeling project which needs to be labeled and allows a labeler to label a given project" {
             labeler -> this "Labeling / LogIn / Register"
+            this -> labeler "Gets a labeler rating"
             admin -> this "Add Project / View Project / LogIn / Register"
+            this -> admin "Provides the labeled projects"
             
-            webapp = container "Web Application" "Delivers the static content and the D-LAMA Progressiv Web Application" "Node.js" {
+            webapp = container "Web Application" "Delivers the static content and the D-LAMA Progressiv Web Application" "Node.js and Express.js" {
                 tags "webapp"
-                labeler -> this "Visits D-LAMA using a smartphone" "HTTPS"
-                admin -> this "Visits D-LAMA using a desktop pc" "HTTPS"
+                labeler -> this "Visits D-LAMA" "HTTPS"
+                admin -> this "Visits D-LAMA" "HTTPS"
             }
 
             pwa = container "Progressiv Web Application" "Provides all of the D-LAMA functionality to the admin and labeler via their web browser or mobile app" "React and Ionic" {
@@ -30,17 +32,21 @@ workspace {
                     admin -> this "SignOn" "HTTPS"
                 }
 
-                projectFront = component "Project Controller" "Allows labeler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
+                projectFront = component "Project Administration" "Allows labeler to view available projects and allows admin to administrate and supervise the labeling projects" "React and Ionic" {
                     labeler -> this "Views labeling projects" "HTTPS"
                     admin -> this "Administrates and supervises the labeling projects" "HTTPS"
+                    signInFront -> this "Provides current user" "React"
                 }
 
-                labelFront = component "Label Controller" "Allows labeler to label available projects" "React and Ionic" {
+                labelFront = component "Label Tracker" "Allows labeler to label available projects" "React and Ionic" {
                     labeler -> this "Labels projects" "HTTPS"
                 }
+
+                labelFront -> projectFront "Gets project information" "React"
+                projectFront -> labelFront "Provides label results" "React"
             }
 
-            api = container "Server-side REST API" "Provides the D-LAMA functionality via JSON/HTTPS API" ".NET Core" {
+            api = container "REST API" "Provides the D-LAMA functionality via JSON/HTTPS API" ".NET Core" {
                 tags "api"
                 !constant JH_TEXT "JSON/HTTPS"
 
@@ -61,7 +67,7 @@ workspace {
                 }
             }
 
-            efcore = container "Entity Framework Core" "EF Core is a modern object-database mapper for .NET and makes working with databases easier." ".NET Core" {
+            efcore = container "Entity Framework Core" "Provides the interface to the database." ".NET Core" {
                 tags "efcore"
                 api -> this "Uses" ".NET Core"
                 userBack -> this "Uses" ".NET Core"
@@ -84,7 +90,7 @@ workspace {
 
         container dlama {
             include *
-            autolayout lr
+            autolayout tb
         }
 
         component pwa {
@@ -104,11 +110,7 @@ workspace {
             element "db" {
                 shape Cylinder
             }
-
-            element "efcore" {
-                shape Pipe
-            }
-        }
+        }   
 
         properties {
             structurizr.locale en-GB
