@@ -8,14 +8,16 @@ Every thursday we answer shortly following questions in a standup (except for th
 😷 How do we get rid of the problems?<br>
 🤯 What are the conclusions and WOW moments?<br>
 
-1. [Weekly of 10.03.2023](23_10_03.md)
-2. [Weekly of 17.03.2023](23_17_03.md)
-3. [Weekly of 26.03.2023](23_26_03.md)
-4. [Weekly of 30.03.2023](23_30_03.md)
+1. [Weekly of 2023-03-10](2023-03-10.md)
+2. [Weekly of 2023-03-17](2023-03-17.md)
+3. [Weekly of 2023-03-26](2023-03-26.md)
+4. [Weekly of 2023-03-30](2023-03-30.md)
+5. [Weekly of 2023-04-06](2023-04-06.md)
+6. [Weekly of 2023-04-13](2023-04-13.md)
 
 
 # Retrospectives
 
 Every third thursday we do a retrospective to find out how the team is feeling and how to keep a drive.
 
-1. [Retrospective of 23.03.2023](23_23_03_retro.png)
+1. [Retrospective of 2023-03-23](2023-03-23_retro.png)
