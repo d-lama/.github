@@ -175,4 +175,14 @@ No external interfaces or APIs are used for the moment.
   </div>
 </details>
 
+<details>
+  <summary id="cd"><h3>Use vite as tooling library and vitest as their unit test framework
+</h3></summary>
+  We have decided to use vite as tooling library to execute runners and vitest as unit test framework.
+  In addition, the end-to-end testing framework cypress was used for automated integration testing
+  <div dir='rtl'>
+  <a href="/tech/adr/0007-us-vitest-as-unit-test-framework.md">Read more</a>
+  </div>
+</details>
+
 (Hier ADR files verlinken)
