@@ -1,0 +1,88 @@
+# Weekly of 06.04.2023
+
+Every thursday we answer shortly following questions in a standup (except for the person writing the answers 😉) meeting.
+* 📜 What have we done?
+* 🔮 What will we do?
+* 😟 What were the problems?
+* 😷 How do we get rid of the problems?
+* 🤯 What are the conclusions and WOW moments?
+
+<hr>
+
+### Todo this week:
+until monday evening: VM´s done (Joel,Schazad,David).
+unitl thursday: definition of done (Gabriel), abstract (Gianmarco,Stefi), labeling process mit Tests (Gianmarco,Stefi).
+
+<hr>
+
+### 🦅 Schazad 🦅
+📜 vm setup webapp and tried backend</br>
+🔮 dotnet mit Datenbank auf VM</br>
+😟 connection between interfaces on VM</br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🦁 Rebekka 🦁
+📜 login and registration</br>
+🔮 define screens, work on project documentation (structure)</br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🤓 Noah 🤓
+📜 </br>
+🔮 label screen</br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🌚 Stefi 🌚
+📜 checkin with Joel, help Gianmarco with labeling data</br>
+🔮 labeling process pull request, finish labeling process</br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🐻 Gianmarco 🐻
+📜 data upload/labeling process</br>
+🔮 review code, finish labeling process</br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🤩 Joel 🤩
+📜 checkin with Stefi</br>
+🔮 VM work on backend</br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🗡️ Gabriel 🗡️
+📜 none </br>
+🔮 none </br>
+😟 none </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
+
+### 🦍 David 🦍
+📜 dockerfile, problems/typos ci/cd files webapp, vm´s for testing + support Shazad</br>
+🔮 webapp deployment kubernetes done, check backend deployment, help with VM setup</br>
+😟 troubleshooting workflow/rancher issues </br>
+😷 none </br>
+🤯 none </br>
+
+<hr>
