@@ -23,3 +23,4 @@ Every thursday we answer shortly following questions in a standup (except for th
 Every third thursday we do a retrospective to find out how the team is feeling and how to keep a drive.
 
 1. [Retrospective of 2023-03-23](2023-03-23_retro.png)
+3. [Retrospective of 2023-04-20](2023-04-20-retro.md)
