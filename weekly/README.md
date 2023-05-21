@@ -15,8 +15,10 @@ Every thursday we answer shortly following questions in a standup (except for th
 5. [Weekly of 2023-04-06](2023-04-06.md)
 6. [Weekly of 2023-04-13](2023-04-13.md)
 7. [Weekly of 2023-04-20](2023-04-20.md)
-8. [Weekly of 2023-04-27](2023-04-27)
-
+8. [Weekly of 2023-04-27](2023-04-27.md)
+9. [Weekly of 2023-05-04](2023-05-04.md)
+10. [Weekly of 2023-05-11](2023-05-11.md)
+11. [Weekly of 2023-05-19](2023-05-19.md)
 
 # Retrospectives
 
