@@ -16,7 +16,41 @@ There are two types of users in D-Lama
 1. The "administrator" who uploads data and checks the quality
 2. The "labeler" who wants to label data for exciting projects
 
-## 2. Functional overview (gianmarco)
+## 2. Functional overview
+
+The main sequence of the D-LAMA web app is defined for two user perspectives:
+
+### Administrator view
+1.	Admin user opens D-LAMA web app and logs in with their admin account credentials.
+2.	After logging in, the admin user is directed to the admin dashboard where they can view a list of their labeling projects.
+3.	The admin user selects the option to create a new labeling project.
+4.	The app prompts the admin user to enter name and description for the new project, as well as upload the dataset to be labeled.
+5.	The admin user also defines the labels or categories for the dataset that the user will be able to choose from when labeling.
+6.	After creating the project, the admin user is directed to the project page, where they can see the progress of the labeling process as the data labelers are applying them.
+7.	The admin user can view individual data points in the dataset and see the tags that have been applied to them, as well as update or add new labels as necessary.
+8.	If the admin user notices any issues with the labeling process, they can adjust specific data points as needed.
+9.	As the labeling process progresses, the admin user can view the overall progress of the project and see how many data points have been labeled, how many are remaining, and the overall accuracy of the labels applied.
+10.	Once all data points have been labeled, the admin user can download the  dataset for use in machine learning models or archive the project if it is no longer needed.
+
+### Data labeler view
+1.	User opens D-LAMA web app and is prompted to log in with their account credentials.
+2.	After logging in, the user is directed to their dashboard where they can view a list of labeling projects.
+3.	The user selects a specific labeling project from the list to start working on.
+4.	The selected project opens and displays the first data point.
+5.	The user swipes up, down, left, or right to label the data point, or skips it if unsure.
+6.	The app automatically loads the next data point in the sequence, and the user repeats step 5 until the whole dataset is labled.
+7.	When the user finishes labeling all datasets in the project, they are directed back to their dashboard and can view their progress on the project.
+8.	The user can select another project from their dashboard and start a new labeling process.
+
+### Additional functions of the prototype
+The D-LAMA web app should additionally fulfill the following requirements already in the prototype:
+- The data labeler can interrupt or pause the process and resume it at a later time.
+- The data labeler can add and remove labeling projects.
+- Both a Data Labeler and an Admin can register an account and log in.
+- An administrator of a project can set the datatype of the dataset as text or image.
+
+The following extensions can be added in later iterations:
+- An administrator or creator of a data label project should be able to set the data type of the data set as video and audio.
 
 ## 3. Quality attributes
 
