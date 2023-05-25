@@ -107,16 +107,38 @@ Continuous Delivery (CD) is a software development practice that involves automa
 No external interfaces or APIs are used for the moment.
 
 ## 8. Code
+D-LAMA consists of multiple GitHub repositories, each containing code or documentation for different aspects of the application:
+
+d-lama-webapp: This is the front-end of the D-LAMA application. It uses the JavaScript framework React and the component library Ionic for UI development​​.
+
+d-lama-service: This is the backend for the D-Lama application. It uses the .NET Core 6.0.14 (LTS) framework​.
+
+ops-d-lama-service: This repository contains Continuous Integration/Continuous Deployment configurations​ for GitHub Actions and Kubernetes.
+
+.github: Here you can find the documentation for the D-LAMA project.
 
 ## 9. Data
 
 ## 10. Infrastructure Architecture
+D-Lama is hosted on a Rancher Kubernetes cluster at ZHAW on-premise. It provides scalability and high availability. The architecture consists of the following components:
+
+1. Deployment for the d-lama-service, the MSSQL deployment, and the d-lama-webapp.
+2. Service for the d-lama-service, the MSSQL deployment, and the d-lama-webapp.
+3. Pod for the d-lama-service, the MSSQL deployment, and the d-lama-webapp.
+4. Ingress rule for the d-lama-service and the d-lama-webapp.
+5. Persistent volume claim for the MSSQL deployment.#
+6. Secrets for the MSSQL deployment.
 
 ## 11. Deployment
+D-Lama's deployment process is managed through a Continuous Integration/Continuous Delivery (CI/CD) pipeline (GitHub Actions), automating the steps from code change to deployment in production.
+
+The deployment process begins when developers commit changes to their respective branches. Once the changes are verified, they are merged into the main branch. Each commit triggers a Continuous Integration (CI) process that builds, tests, and performs a semantic release. The Continuous Delivery (CD) process is more selective. It is only activated when a commit is pushed to the master branch with a specific prefix in the commit message. This CD process then builds a Docker image and deploys it to the Kubernetes cluster. This approach ensures that only tested and validated changes are deployed.
 
 ## 12. Operation and Support
+The Rancher Kubernetes cluster that hosts D-Lama is monitored by the ZHAW, while the D-Lama system itself is observed by its own team. Should issues occur, the DevOps team provides support to resolve them. This approach to monitoring ensures the smooth operation of the D-Lama service.
 
-## 13. Decision Log 
+## 13. Decision Log
+Decisions were made during Retrospectives and weekly meetings for D-Lama's development. These decisions and the individuals responsible for each task were documented and can be found in the weekly and retrospective notes in the .github repository. This log allows tracking the history and progress of the project.
 
 <details>
   <summary id="cd"><h3>Use Markdown any decision records</h3></summary>
