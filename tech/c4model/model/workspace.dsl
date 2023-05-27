@@ -62,17 +62,36 @@ workspace {
                     projectFront -> this "Views and edits labeling projects" "${JH_TEXT}"
                 }
 
-                labelBack = component "Label Controller" "Allows admins to create labels for a project" ".NET Core" {
+                dataPointBack = component "Data Point Controller" "Allows users and admins to create, manage and label data points" ".NET Core" {
                     labelFront -> this "Views and edits labels of a specific project" "${JH_TEXT}"
+                }
+
+                userService = component "User Service" "" ".NET Core" {
+                    userBack -> this
+                }
+
+                sharedService = component "Shared Service" "" ".NET Core" {
+                    userBack -> this
+                    dataPointBack -> this
+                    projectBack -> this
+                }
+
+                dataPointService = component "Data Point Service" "" ".NET Core" {
+                    dataPointBack -> this
+                }
+
+                projectService = component "Project Service" "" ".NET Core" {
+                    projectBack -> this
                 }
             }
 
             efcore = container "Entity Framework Core" "Provides the interface to the database." ".NET Core" {
                 tags "efcore"
                 api -> this "Uses" ".NET Core"
-                userBack -> this "Uses" ".NET Core"
-                projectBack -> this "Uses" ".NET Core"
-                labelBack -> this "Uses" ".NET Core"
+                userService -> this "Uses" ".NET Core"
+                sharedService -> this "Uses" ".NET Core"
+                dataPointService -> this "Uses" ".NET Core"
+                projectService -> this "Uses" ".NET Core"
             }
 
             db = container "Database" "Stores labeling projects informations and meta data. Stores user registration information, hashed authentication credentials, access logs, etc." "MSSQL" {
