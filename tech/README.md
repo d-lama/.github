@@ -141,6 +141,7 @@ Continuous Delivery (CD) is a software development practice that involves automa
 No external interfaces or APIs are used for the moment.
 
 ## 8. Code
+### Github organization
 D-LAMA consists of multiple GitHub repositories, each containing code or documentation for different aspects of the application:
 
 d-lama-webapp: This is the front-end of the D-LAMA application. It uses the JavaScript framework React and the component library Ionic for UI development​​.
@@ -150,6 +151,53 @@ d-lama-service: This is the backend for the D-Lama application. It uses the .NET
 ops-d-lama-service: This repository contains Continuous Integration/Continuous Deployment configurations​ for GitHub Actions and Kubernetes.
 
 .github: Here you can find the documentation for the D-LAMA project.
+
+### Backend
+#### Middleware
+The backend makes extensive use of middleware to extract logic from the controller and remove code duplication. We used mostly 4 different middlewares, which we will discuss here in more detail.
+1. Model Validation (from .NET Core)
+2. Authorize (from .NET Core)
+3. AdminAuthorize
+4. RESTExceptionFilter
+
+##### Model Validation
+This filter validates the model which is sent on a request. It is a middleware provided by entity framework core, which is enabled by default. It allowed us to specify validation rules on the model properties and would automatically return a BadRequest message to the user, if the model validation fails.
+
+**Example:**
+
+Model:
+
+![Model validation declaration](images/model_validation_1.png)
+
+Request and response:
+
+![Model validation result](images/model_validation_2.png)
+
+##### Authorize
+With the defaulf .net core authentication and authorization middleware, we can easily define who should be able to access a specific endpoint.
+Using the **[Authorize]** attribute will automatically check, if the user has provided a valid JWT-Token.
+
+##### AdminAuthorize
+This middleware was written by us and will extend the [Authorize] attribute by also checking if the user is registered as an administrator.
+Instead of using **[Authorize]** you can just specify **[AdminAuthorize]** in order to secure and endpoint only for admins.
+
+##### RESTExceptionFilter
+Lastly, one of our own written middleware is the **RESTExceptionFilter**. As this is an exception filter, it only gets executed, when an exception occurs.
+It then checks if the exception is of the type RESTException and if so, it will automatically return the result depending on the provided type.
+
+This middleware allows us to throw exceptions within the domain logic and return automatically an REST-response.
+
+**Example:**
+
+For example, the UserService class cannot find the requested user. Then it can just throw a RESTException:
+
+![Throw rest exception example](images/rest_exception_filter_1.png)
+
+Which will then be handled by the RESTExceptionFilter class, which will return an 404 NotFound result to the client:
+
+![Rest exception result](images/rest_exception_filter_2.png)
+
+This makes our controllers a lot slimmer, as we can just use the middleware to determine the error responses instead of always making a try and catch within the controller method.
 
 ## 9. Data
 
