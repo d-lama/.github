@@ -66,21 +66,21 @@ workspace {
                     labelFront -> this "Views and edits labels of a specific project" "${JH_TEXT}"
                 }
 
-                userService = component "User Service" "Allows the internal components to access and manage user specfic data" ".NET Core" {
+                userService = component "User Service" "Handles domain logic regarding the user entity" ".NET Core" {
                     userBack -> this "Access and manage request" ".NET Core"
                 }
 
-                sharedService = component "Shared Service" "Allows the internal components to access and manage shared data" ".NET Core" {
+                sharedService = component "Shared Service" "Provides shared methods for all Controllers" ".NET Core" {
                     userBack -> this "Access and manage request" ".NET Core"
                     dataPointBack -> this "Access and manage request" ".NET Core"
                     projectBack -> this "Access and manage request" ".NET Core"
                 }
 
-                dataPointService = component "Data Point Service" "Allows the internal components to access and manage single data points" ".NET Core" {
+                dataPointService = component "Data Point Service" "Handles domain logic regarding the data points entity (CRUD, label data points, get statistics, etc.)" ".NET Core" {
                     dataPointBack -> this "Access and manage request" ".NET Core"
                 }
 
-                projectService = component "Project Service" "Allows the internal components to access and manage project specfic data" ".NET Core" {
+                projectService = component "Project Service" "Handles domain logic regarding the project entity" ".NET Core" {
                     projectBack -> this "Access and manage request" ".NET Core"
                 }
             }
